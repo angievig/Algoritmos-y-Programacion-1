@@ -23,7 +23,8 @@ public class Ejemplo2{
 		int suma =0;
 
 		for(int indice=1; indice <= numeroN; indice++){
-			suma += indice;
+			suma += indice; 
+			// suma = suma + indice;
 		}
 		System.out.println(suma);
 	}

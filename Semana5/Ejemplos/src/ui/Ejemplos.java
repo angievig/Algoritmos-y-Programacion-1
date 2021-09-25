@@ -1,3 +1,6 @@
+// javac -cp src src/ui/Ejemplos.java -d bin
+// java -cp bin ui.Ejemplos
+
 package ui; //nombre del paquete
 
 import java.util.Scanner; 
@@ -9,17 +12,36 @@ public class Ejemplos{
 	public static void main (String[] a){
 
 
-		//dobleRecorrido();
+		dobleRecorrido();
 		//tablasMultiplicar();
 		//promedio();
 		//promedioDoWhile();
 		//aleatorios();
-		cadenas();
 
-		
+		/*
+
+		System.out.println("Digite una cadena");
+
+		String entradaCadena= reader.nextLine();
+		cadenas(entradaCadena);
 
 
 
+		System.out.println("Ejemplo de los aleatorios");
+
+		int min, max;
+		System.out.println("Digite el menor");
+		min= reader.nextInt();
+		System.out.println("Digite el mayor");
+		max= reader.nextInt();
+
+		int salidaAleatorio=  aleatorios(min, max);
+		System.out.println("Un num aleatorio en el rango " +
+		 "[" + min + "," + max + "] es: " + salidaAleatorio);
+
+		System.out.println("Un num aleatorio en el rango " +
+		 "[" + min + "," + max + "] es: " + aleatorios(min, max));
+*/
 	}
 
 	public static void dobleRecorrido(){
@@ -92,26 +114,22 @@ public class Ejemplos{
 			
 	}
 
-	public static void aleatorios(){
-		int min, max;
+	public static int aleatorios(int min, int max){
 
-		min= reader.nextInt();
-		max= reader.nextInt();
 		int aleatorio=  min + (int)(Math.random() * ((max - min) + 1));
 
-		System.out.println("Un num aleatorio en el rango " +
-		 "[" + min + "," + max + "] es: " + aleatorio);
-	
+		
+	    return aleatorio;
 	}
 
-	public static void cadenas(){
-		String word= reader.nextLine();
-
+	public static void cadenas(String word){
+		
 		for (int index = 0; index< word.length(); index++ ){
 			char letter= word.charAt(index);
 			System.out.println("caracter en la posicion "+ index + ":  "+letter);
-
 		}
+		char a , b;
+		String var= "" + a + b;
 	}
 	
 		
