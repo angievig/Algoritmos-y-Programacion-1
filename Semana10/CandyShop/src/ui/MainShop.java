@@ -129,7 +129,7 @@ public class MainShop {
 		System.out.println("Bienvenido a la tienda de APO1, digite el nombre del  dueño");
 		String name= sc.nextLine();
 		store = new Shop(name);
-		/*
+		
 		// variables para leer las entradas
 		String nameProduct;
 	    int numProducts;
@@ -200,7 +200,7 @@ public class MainShop {
 		System.out.println(store.getProduct2());
 		System.out.println(store.getProduct3());
 		
-		*/
+		
 		
 	}
 	/**
