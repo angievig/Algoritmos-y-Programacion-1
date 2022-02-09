@@ -21,8 +21,10 @@ public class NotaFinal{
 		System.out.println("Tareas:");
 		tareas= sc.nextDouble();
 		
-		resultado =notaFinal(parcial1, parcial1, tareas);
+		resultado =notaFinal(parcial1, parcial2, tareas);
+	
 
+		System.out.println("La nota final es: " + notaFinal(parcial1, parcial2, tareas));
 		System.out.println("La nota final es: " + resultado);
 
 		
