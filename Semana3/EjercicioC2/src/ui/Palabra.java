@@ -1,4 +1,4 @@
-package ui; //nombre del paquete
+//package ui; //nombre del paquete
 
 import java.util.Scanner; 
 
@@ -41,7 +41,7 @@ public class Palabra{
 			message += "La palabra tiene " + word.length() +"caracteres \n";
 		}
 
-		System.out.println(message);
+		System.out.println(message.contains(";")? message + " tiene punto y coma": "nuevo mensaje");
 
 
 
