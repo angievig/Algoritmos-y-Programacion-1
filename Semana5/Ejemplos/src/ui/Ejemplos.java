@@ -128,8 +128,7 @@ public class Ejemplos{
 			char letter= word.charAt(index);
 			System.out.println("caracter en la posicion "+ index + ":  "+letter);
 		}
-		char a , b;
-		String var= "" + a + b;
+
 	}
 	
 		
