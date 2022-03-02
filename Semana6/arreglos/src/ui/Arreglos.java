@@ -2,8 +2,15 @@ package ui; //nombre del paquete
 
 import java.util.Scanner; 
 
+/** Clase principal con el ejemplo de javadoc
+ * @author avillota
+ * 
+ * */
 public class Arreglos{
 
+/**
+ * reader es un objeto de la clase Scanner para leer la entrada
+ * */
 public static Scanner reader= new Scanner(System.in);
 
 	public static void main (String[] a){
@@ -32,6 +39,11 @@ public static Scanner reader= new Scanner(System.in);
 	* @return <nombre_var> <tipo>, informacion sobre variable de retorno --> retorno
 	*/
 
+	/**
+	* Metodo que se encarga de responder al usuario de pendiendo de la opción
+	* seleccionada</br>
+	* @param num int, num >=0
+	*/
 	public static void answerOption(int num){
 
 		switch(num){
@@ -67,6 +79,14 @@ public static Scanner reader= new Scanner(System.in);
 
 	}
 
+	/**
+	* Identificar si en un arreglo de enteros hay un número
+	*  que es divisible por 2 y por 3</br>
+	* @param array int[], array !=null (quiere que está inicializado)
+	* @return out String, contiene un mensaje si el arreglo tiene un número 
+	* divisible por 2 y 3 muestra la posición y el número
+	* , un mensaje de error en caso contrario
+	*/
 	public static String ejemploRecorridoParcial(int[] array){
 		String out="";
 
