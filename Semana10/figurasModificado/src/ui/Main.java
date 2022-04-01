@@ -63,7 +63,7 @@ public class Main {
 			break;
 	
 		case 3:
-			createCircle();
+			addCircle();
 			break;
 
 		case 4:
@@ -77,8 +77,6 @@ public class Main {
 	}
 
 	public void createRectangle() {
-		
-
 
 		System.out.println("Creando un rectángulo");
 		double x1, y1;
@@ -172,6 +170,47 @@ public class Main {
 		
 		figures.addTriangle(x1, y1, x2, y2, x3, y3);
 
+	}
+
+	public void addCircle(){
+
+		if(figures.hasSpace()){
+
+			//pedir entradas
+
+			double x, y, r;
+			String id;
+		System.out.println("Por favor digite el radio");
+		r= sc.nextDouble();
+		sc.nextLine();
+		
+		System.out.println("Por favor digite x");
+		x= sc.nextDouble();
+		sc.nextLine();
+		
+		System.out.println("Por favor digite y");
+		y= sc.nextDouble();
+		sc.nextLine();
+
+		System.out.println("Por favor digite el id");
+		id= sc.nextLine();
+		
+
+		//Agregar el círculo
+		System.out.println( figures.addCircle(x, y, r,id));
+
+
+
+
+
+
+			//se crea
+
+		}else{
+
+			System.out.println("No hay espacio para agregar más círculos");
+
+		}
 	}
 
 	public void createCircle() {

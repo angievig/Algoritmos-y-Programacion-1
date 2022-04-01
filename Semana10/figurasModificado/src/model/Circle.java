@@ -9,6 +9,7 @@ public class Circle {
 	
 	private double radius;
 	private Point center;
+	private String id;
 	
 	
 	
@@ -16,10 +17,12 @@ public class Circle {
 	 * Constructor
 	 * @param radius is a double, radius > 0
 	 * @param center is an object center!= null 
+	 * @param id is an String identifying the circle id!= "" and id != null
 	 */
-	public Circle(double radius, Point center) {
+	public Circle(double radius, Point center, String id) {
 		this.radius = radius;
 		this.center = center;
+		this.id= id;
 	}
 	
 	//getters and setters
@@ -31,6 +34,11 @@ public class Circle {
 	}
 	public Point getCenter() {
 		return center;
+	}
+
+	public String getId(){
+		return id;
+
 	}
 	/**
 	 * Modifies the value of the center <br>

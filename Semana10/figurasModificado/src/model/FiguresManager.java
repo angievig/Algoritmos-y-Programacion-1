@@ -12,6 +12,8 @@ public class FiguresManager {
 	private String title;
 
 	private Triangle aTriangle;
+
+	//asociación 1..*
 	private Circle [] circles;
 	
 
@@ -25,10 +27,50 @@ public class FiguresManager {
 
 		title = tit;
 
-		//init
+		//init arreglo que representa la asociación de 1 ..*
 		circles= new Circle[MAX_CIRCLES]; 
 
 	}
+	/** 
+	 * @return true si se puede agregar otro circulo, false en el caso contrario
+	 * */
+	public boolean hasSpace(){
+
+		boolean emptyPosition= false;
+		for (int i=0; i<MAX_CIRCLES && !emptyPosition; i++){
+
+			if(circles[i] ==null){
+				emptyPosition= true;
+			}
+
+		}
+		return emptyPosition;
+	}
+
+	/**
+	 * @return un entero con la primera posición vacía en el arreglo
+	 *  y -1 si el arreglo está lleno 
+	 * */
+	 public int getEmptyPosition(){
+
+	 }
+
+	 /**
+	  * @param id is the id of the searched circle 
+	  * @return boolean true if the circle is in the array, else false
+	  * */
+	 public boolean findCircle(String id){
+
+	 	boolean flag= false;
+	 	for(int i=0; i<MAX_CIRCLES && !flag; i++){
+
+	 		if (circles[i]!= null && circles[i].getId().equals(id)){
+	 			flag= true;
+	 		}
+	 	}
+
+	 	return flag;
+	 }
 
 
 
@@ -44,9 +86,34 @@ public class FiguresManager {
 		
 	}
 	
-	public void addCircle(double xCenter, double yCenter, double rad) {
-		Point point= new Point(xCenter, yCenter);
-		aCircle = new Circle (rad, point);
+	/** Metodo que agrega un círculo en la primer aposición vacía
+	 * @return un mensaje informando el resultado...
+	 * */
+	public String addCircle(double xCenter, double yCenter, double rad, String id) {
+		String out = "";
+		
+
+
+		int emptyPos= getEmptyPosition(); //busco la primera posición vacía
+
+		// si el arreglo está lleno?
+
+		if(emptyPos == -1){ // está lleno
+
+			//no se puede agregar
+			out = "El arreglo está lleno";
+
+
+		}else{ //Si no está lleno
+
+			Point point= new Point(xCenter, yCenter);
+			circles[emptyPos] =  new Circle (rad, point, id);
+			out = "Se agregó el círculo con id "+ id;
+
+		}
+
+		return out;
+
 		
 	}
 	
@@ -75,6 +142,8 @@ public class FiguresManager {
 	 	return out;
 	 }
 
+	 public 
+
 	
 	//getters and setters
 	public String getTitle() {
@@ -83,5 +152,5 @@ public class FiguresManager {
 	public void setTitle(String tit) {
 		title = tit;
 	}
-	+
+
 }
