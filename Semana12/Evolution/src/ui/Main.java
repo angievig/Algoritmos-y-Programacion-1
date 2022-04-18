@@ -10,6 +10,7 @@ import model.IFly;
 import model.IMove;
 import model.Mammal;
 import model.Species;
+import model.HomoSapiens;
 
 import java.util.Scanner;
 
@@ -23,11 +24,16 @@ public class Main {
 	public static void main(String[] args) {
 		Main main = new Main();
 		
-        System.out.println("Create Animals");
-	    main.factoryAnimal();
-        System.out.println("Create IMove Objects");
-        main.factoryIMove();
+        /** System.out.println("Create Animals"); */
+		/** main.factoryAnimal(); */
+        /** System.out.println("Create IMove Objects"); */
+        /** main.factoryIMove(); */
         
+        /** Human human = new Human(60, 1.72, 30, "Javier"); */
+        /** System.out.println(human.communication()); */
+        
+        HomoSapiens sapiens = new HomoSapiens(60, 1.75, 30, "camilo");
+        System.out.println(sapiens.communication());
 	}
 
     /**

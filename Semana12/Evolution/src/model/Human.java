@@ -4,7 +4,6 @@ public class Human extends Mammal implements IMove {
 
 	public Human(double weight, double height, int age, String name) {
 		super(weight, height, age, name);
-
 		/** la palabra reservada super llama al (los) constructor(es) de la(s) */
 		/**   clase(s) superior(es) */
 
