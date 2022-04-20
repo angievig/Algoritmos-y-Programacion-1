@@ -4,6 +4,8 @@ public interface IMove {
 
 	public String jump();
 
-	public String run();
+	public default String run(){
+        return "Default Run !";
+    }
 	
 }

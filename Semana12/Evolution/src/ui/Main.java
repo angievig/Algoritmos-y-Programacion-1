@@ -10,7 +10,6 @@ import model.IFly;
 import model.IMove;
 import model.Mammal;
 import model.Species;
-import model.HomoSapiens;
 
 import java.util.Scanner;
 
@@ -28,12 +27,29 @@ public class Main {
 		/** main.factoryAnimal(); */
         /** System.out.println("Create IMove Objects"); */
         /** main.factoryIMove(); */
+
+        /** Animal human = new Human(60, 1.75, 30, "Javier"); */
+        /** System.out.println(human); */
+
+        /** IMove humanM = new Human(60, 1.75, 30, "Javier"); */
+        /** System.out.println(humanM); */
         
         /** Human human = new Human(60, 1.72, 30, "Javier"); */
         /** System.out.println(human.communication()); */
         
-        HomoSapiens sapiens = new HomoSapiens(60, 1.75, 30, "camilo");
-        System.out.println(sapiens.communication());
+        /** Human sapiens = new Human(60, 1.75, 30, "camilo"); */
+        /** System.out.println(sapiens.communication()); */
+        /** System.out.println(sapiens.run()); */
+
+        /** Chicken pollo = new Chicken(20, 20, 3, 10); */
+        /** System.out.println(pollo.run()); */
+        
+        IFly dA = new Duck(20, 20, 3, 10);
+        IMove dB = new Duck(20, 20, 3, 10);
+
+        System.out.println(dA.communication());
+        System.out.println(dB.communication());
+
 	}
 
     /**
@@ -59,8 +75,8 @@ public class Main {
         System.out.println(moveHuman.run());
         IMove moveCat = new Felidae(15, 30, 3, "Garfield", Species.CAT);
         System.out.println(moveCat.jump());
-        IMove moveDuck = new Duck(6, 30, 4, 60);
-        System.out.println(moveDuck.run());
+        Duck moveDuck = new Duck(6, 30, 4, 60);
+        System.out.println(moveDuck.fly());
         
         ///////////////////////////////////////////////////////////////
         //  PREGUNTA: ¿Un objeto de tipo IMove es igual 

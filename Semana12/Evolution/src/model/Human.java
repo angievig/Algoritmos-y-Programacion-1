@@ -22,15 +22,15 @@ public class Human extends Mammal implements IMove {
 		return "I'm Jumping";
 	}
 
-	@Override
-	public String run() {
-		return "I'm running!!";
-	}
-	
+    @Override
+    public String run() {
+        return "I'm running!!";
+    }
+
     /** todas las clases de java heredan por defecto de 'Object' el  */
     /**     metodo toString es un metodo abstracto de Object */
 	public String toString(){
-		return "name: " + super.name;
+		return "name: " + super.getName();
 		
 	}
 	
