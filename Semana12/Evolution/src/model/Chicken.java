@@ -17,10 +17,10 @@ public class Chicken extends Bird implements IMove{
 		return "Chicken Jumping";
 	}
 
-	/** @Override */
-	/** public String run() { */
-	/**     return "Chicken running... is funny... (?)"; */
-	/** } */
+    @Override
+    public String run() {
+        return "Chicken running... is funny... (?)";
+    }
 
 	
 }

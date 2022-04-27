@@ -12,43 +12,25 @@ import model.Mammal;
 import model.Species;
 
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Main {
 	private Scanner sc;
+    private ArrayList<Animal> animals;
 
 	public Main() {
 		this.sc = new Scanner(System.in);
+        this.animals = new ArrayList<Animal>();
 	}
 
 	public static void main(String[] args) {
 		Main main = new Main();
-		
-        /** System.out.println("Create Animals"); */
-		/** main.factoryAnimal(); */
-        /** System.out.println("Create IMove Objects"); */
-        /** main.factoryIMove(); */
+        main.initAnimals();
+        main.removeAnimal(3);
+        System.out.println(main.printAnimals());
+        /** System.out.println(main.printChickens()); */
+        /** System.out.println(main.printChickensCasting()); */
 
-        /** Animal human = new Human(60, 1.75, 30, "Javier"); */
-        /** System.out.println(human); */
-
-        /** IMove humanM = new Human(60, 1.75, 30, "Javier"); */
-        /** System.out.println(humanM); */
-        
-        /** Human human = new Human(60, 1.72, 30, "Javier"); */
-        /** System.out.println(human.communication()); */
-        
-        /** Human sapiens = new Human(60, 1.75, 30, "camilo"); */
-        /** System.out.println(sapiens.communication()); */
-        /** System.out.println(sapiens.run()); */
-
-        /** Chicken pollo = new Chicken(20, 20, 3, 10); */
-        /** System.out.println(pollo.run()); */
-        
-        IFly dA = new Duck(20, 20, 3, 10);
-        IMove dB = new Duck(20, 20, 3, 10);
-
-        System.out.println(dA.communication());
-        System.out.println(dB.communication());
 
 	}
 
@@ -85,6 +67,59 @@ public class Main {
         ///////////////////////////////////////////////////////////////
 
     }
+
+    public void initAnimals() {
+        Animal humanA = new Human(60, 1.67, 30, "Camilo");
+        Mammal humanB = new Human(60, 1.67, 30, "Juan");
+        Human humanC = new Human(60, 1.67, 30, "Jorge");
+        Felidae felindaeA = new Felidae(20, 20, 5, "Garfield", Species.CAT);
+        Bird birdA = new Chicken(10, 25, 5, 20);
+        Chicken chicken = new Chicken(10, 27, 6, 21.2);
+        Duck duck = new Duck(10, 23, 4, 22.5 );
+
+        animals.add(humanA);
+        animals.add(humanB);
+        animals.add(humanC);
+        animals.add(felindaeA);
+        animals.add(birdA);
+        animals.add(chicken);
+        animals.add(duck);
+    }
     
+    public String printAnimals() {
+        String msg = "";
+        for (int i = 0; i < animals.size(); i++) {
+            if (animals.get(i) != null) {
+                msg += animals.get(i).communication() + "index: "+ i + "\n";
+            }
+        }
+        return msg;
+    }
+
+   public String printChickens() {
+       String msg = "";
+       for (int i = 0; i < animals.size(); i++) {
+           if (animals.get(i) instanceof Chicken) {
+               msg += animals.get(i).communication() + "\n";
+           }
+       }
+       return msg;
+   } 
+   
+   public String printChickensCasting() {
+       String msg = "";
+       for (int i = 0; i < animals.size(); i++) {
+           if (animals.get(i) instanceof Chicken) {
+               msg += ((Chicken)animals.get(i)).run() + "\n";
+           }
+       }
+       return msg;
+   } 
+
+
+   public void removeAnimal(int index){
+       this.animals.remove(index);
+   }
+
 
 }
