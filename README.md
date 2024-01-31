@@ -3,5 +3,7 @@
 
 ### Contenido
 
-*Semana 1: programas creados en clase en las clases de la semana del 9 al 13 de agosto
+*Semana 1:
+- Presentación del curso [Tablero de Miro](https://miro.com/app/board/uXjVN0SlhjI=/?share_link_id=573581816118)
+- Grupo de telegram [InvitaciOn](https://t.me/+xZlMtUE1bGFjMDMx)
 
