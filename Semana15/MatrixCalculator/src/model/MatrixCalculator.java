@@ -2,6 +2,7 @@ package model;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.lang.Math;
 
 public class MatrixCalculator {
 	
@@ -9,6 +10,10 @@ public class MatrixCalculator {
 	private ArrayList<String[][]> stringMatrices;
 	
 	public MatrixCalculator() {
+		int b = (int)(Math.random()*(100-1+1)+1);
+		char a = 65;
+		String as = ""+a;
+		System.out.println( a );
 		numericMatrices= new ArrayList<int[][]>() ;
 		stringMatrices= new ArrayList<String[][]>();
 		
