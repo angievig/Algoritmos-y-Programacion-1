@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_EjgPAPZ-Ee6Et8vXBhrtfA" name="pokeCollectorArray">
+    <eAnnotations xmi:id="_DKnUAPZ_Ee6Et8vXBhrtfA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_DKn7EPZ_Ee6Et8vXBhrtfA" source="codegen">
+        <details xmi:id="_DKoiIPZ_Ee6Et8vXBhrtfA" key="codegenDirectory" value="/pokeCollectorArray/src"/>
+        <details xmi:id="_DSPmAPZ_Ee6Et8vXBhrtfA" key="AssociatedSourceCode" value="/pokeCollectorArray/src/ui/PokeCollector.java;1921896185/1;/pokeCollectorArray/src/model/Collection.java;150448237/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_DJyNkPZ_Ee6Et8vXBhrtfA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_DJ7-kPZ_Ee6Et8vXBhrtfA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_DJ9zwPZ_Ee6Et8vXBhrtfA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_DJ9zwfZ_Ee6Et8vXBhrtfA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_DJ9zwvZ_Ee6Et8vXBhrtfA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_DJ9zw_Z_Ee6Et8vXBhrtfA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_DJ9zxPZ_Ee6Et8vXBhrtfA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_DJ-a0PZ_Ee6Et8vXBhrtfA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_DKAQAPZ_Ee6Et8vXBhrtfA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_DKKBAPZ_Ee6Et8vXBhrtfA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_DKLPIPZ_Ee6Et8vXBhrtfA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_DNUCsPZ_Ee6Et8vXBhrtfA" name="Scanner"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_DKOScPZ_Ee6Et8vXBhrtfA" name="model">
+      <packagedElement xmi:type="uml:Class" xmi:id="_DNiFIPZ_Ee6Et8vXBhrtfA" name="Collection">
+        <ownedAttribute xmi:id="_LdcF0PZ_Ee6Et8vXBhrtfA" name="owner">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_LddT8PZ_Ee6Et8vXBhrtfA" name="creationDate" type="_DNlIcPZ_Ee6Et8vXBhrtfA" association="_LdkBoPZ_Ee6Et8vXBhrtfA"/>
+        <ownedAttribute xmi:id="_Ldd7APZ_Ee6Et8vXBhrtfA" name="album1" type="_LdXNUPZ_Ee6Et8vXBhrtfA" association="_Ldl20PZ_Ee6Et8vXBhrtfA"/>
+        <ownedAttribute xmi:id="_LdeiEPZ_Ee6Et8vXBhrtfA" name="album2" type="_LdXNUPZ_Ee6Et8vXBhrtfA" association="_Ldmd4PZ_Ee6Et8vXBhrtfA"/>
+        <ownedAttribute xmi:id="_LdfJIPZ_Ee6Et8vXBhrtfA" name="album3" type="_LdXNUPZ_Ee6Et8vXBhrtfA" association="_Ldmd4vZ_Ee6Et8vXBhrtfA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LdgXQPZ_Ee6Et8vXBhrtfA" name="Collection" specification="_LdUxEPZ_Ee6Et8vXBhrtfA">
+          <ownedParameter xmi:id="_Ldg-UPZ_Ee6Et8vXBhrtfA" name="owner">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Ldg-UfZ_Ee6Et8vXBhrtfA" name="creationDate" type="_DNlIcPZ_Ee6Et8vXBhrtfA"/>
+          <ownedParameter xmi:id="_Ldg-UvZ_Ee6Et8vXBhrtfA" type="_DNiFIPZ_Ee6Et8vXBhrtfA" direction="return"/>
+          <language>java</language>
+          <body>this.owner = owner;
+		this.creationDate = creationDate;
+		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LdhlYPZ_Ee6Et8vXBhrtfA" name="Collection" specification="_Lb3_kPZ_Ee6Et8vXBhrtfA">
+          <ownedParameter xmi:id="_LdhlYfZ_Ee6Et8vXBhrtfA" name="owner">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_LdhlYvZ_Ee6Et8vXBhrtfA" name="day">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_LdhlY_Z_Ee6Et8vXBhrtfA" name="month">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_LdhlZPZ_Ee6Et8vXBhrtfA" name="year">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_LdhlZfZ_Ee6Et8vXBhrtfA" type="_DNiFIPZ_Ee6Et8vXBhrtfA" direction="return"/>
+          <language>java</language>
+          <body>this.owner = owner;
+		creationDate = new Date(day, month, year);
+		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LdhlZvZ_Ee6Et8vXBhrtfA" name="toString" specification="_LcBJgPZ_Ee6Et8vXBhrtfA">
+          <ownedParameter xmi:id="_LdhlZ_Z_Ee6Et8vXBhrtfA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String out=&quot;&quot;;
+		out += &quot;This collection belongs to &quot; + owner;
+		out += &quot;\ncreated on &quot; + creationDate.toString();
+		return out;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LdhlaPZ_Ee6Et8vXBhrtfA" name="hasAlbums" specification="_LcDlwPZ_Ee6Et8vXBhrtfA">
+          <ownedParameter xmi:id="_LdhlafZ_Ee6Et8vXBhrtfA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return album1 ==null || album2 ==null|| album3 ==null;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LdhlavZ_Ee6Et8vXBhrtfA" name="showAlbums" specification="_LcDlwvZ_Ee6Et8vXBhrtfA">
+          <ownedParameter xmi:id="_Ldhla_Z_Ee6Et8vXBhrtfA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String out=&quot;&quot;;
+
+		if (album1!= null)
+			out+= album1.toString();
+		if (album2!= null)
+			out+= album2.toString();
+		if (album3!= null)
+			out+= album3.toString();
+
+		return out;
+		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LdhlbPZ_Ee6Et8vXBhrtfA" name="addAlbum" specification="_LcDlxPZ_Ee6Et8vXBhrtfA">
+          <ownedParameter xmi:id="_LdhlbfZ_Ee6Et8vXBhrtfA" name="tit">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_LdhlbvZ_Ee6Et8vXBhrtfA" name="num">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (album1 == null){
+			album1 = new Album(tit, num);
+		}
+
+		if (album2 == null){
+			album2 = new Album(tit, num);
+		}
+		if (album3 == null){
+			album3 = new Album(tit, num);
+		}
+
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ldhlb_Z_Ee6Et8vXBhrtfA" name="isEmpty" specification="_LcEM0PZ_Ee6Et8vXBhrtfA">
+          <ownedParameter xmi:id="_LdhlcPZ_Ee6Et8vXBhrtfA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return album1== null &amp;&amp; album2==null &amp;&amp; album3==null;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Lb3_kPZ_Ee6Et8vXBhrtfA" name="Collection" method="_LdhlYPZ_Ee6Et8vXBhrtfA">
+          <eAnnotations xmi:id="_Lb-GMPZ_Ee6Et8vXBhrtfA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Lb_UUPZ_Ee6Et8vXBhrtfA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_Lb7p8PZ_Ee6Et8vXBhrtfA" name="owner">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Lb84EPZ_Ee6Et8vXBhrtfA" name="day">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Lb9fIPZ_Ee6Et8vXBhrtfA" name="month">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Lb9fIfZ_Ee6Et8vXBhrtfA" name="year">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Lb_7YPZ_Ee6Et8vXBhrtfA" type="_DNiFIPZ_Ee6Et8vXBhrtfA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_LcBJgPZ_Ee6Et8vXBhrtfA" name="toString" method="_LdhlZvZ_Ee6Et8vXBhrtfA">
+          <ownedParameter xmi:id="_LcC-sPZ_Ee6Et8vXBhrtfA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_LcDlwPZ_Ee6Et8vXBhrtfA" name="hasAlbums" method="_LdhlaPZ_Ee6Et8vXBhrtfA">
+          <ownedParameter xmi:id="_LcDlwfZ_Ee6Et8vXBhrtfA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_LcDlwvZ_Ee6Et8vXBhrtfA" name="showAlbums" method="_LdhlavZ_Ee6Et8vXBhrtfA">
+          <ownedParameter xmi:id="_LcDlw_Z_Ee6Et8vXBhrtfA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_LcDlxPZ_Ee6Et8vXBhrtfA" name="addAlbum" method="_LdhlbPZ_Ee6Et8vXBhrtfA">
+          <ownedParameter xmi:id="_LcDlxfZ_Ee6Et8vXBhrtfA" name="tit">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_LcDlxvZ_Ee6Et8vXBhrtfA" name="num">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_LcEM0PZ_Ee6Et8vXBhrtfA" name="isEmpty" method="_Ldhlb_Z_Ee6Et8vXBhrtfA">
+          <ownedParameter xmi:id="_LcEM0fZ_Ee6Et8vXBhrtfA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_LdUxEPZ_Ee6Et8vXBhrtfA" name="Collection" method="_LdgXQPZ_Ee6Et8vXBhrtfA">
+          <eAnnotations xmi:id="_LdVYIPZ_Ee6Et8vXBhrtfA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_LdVYIfZ_Ee6Et8vXBhrtfA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_LdUxEfZ_Ee6Et8vXBhrtfA" name="owner">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_LdUxEvZ_Ee6Et8vXBhrtfA" name="creationDate" type="_DNlIcPZ_Ee6Et8vXBhrtfA"/>
+          <ownedParameter xmi:id="_LdVYIvZ_Ee6Et8vXBhrtfA" type="_DNiFIPZ_Ee6Et8vXBhrtfA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_DNlIcPZ_Ee6Et8vXBhrtfA" name="Date"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_LdXNUPZ_Ee6Et8vXBhrtfA" name="Album"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_LdkBoPZ_Ee6Et8vXBhrtfA" name="" memberEnd="_LddT8PZ_Ee6Et8vXBhrtfA _LdlPwPZ_Ee6Et8vXBhrtfA">
+        <ownedEnd xmi:id="_LdlPwPZ_Ee6Et8vXBhrtfA" name="" type="_DNiFIPZ_Ee6Et8vXBhrtfA" association="_LdkBoPZ_Ee6Et8vXBhrtfA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Ldl20PZ_Ee6Et8vXBhrtfA" name="" memberEnd="_Ldd7APZ_Ee6Et8vXBhrtfA _Ldl20fZ_Ee6Et8vXBhrtfA">
+        <ownedEnd xmi:id="_Ldl20fZ_Ee6Et8vXBhrtfA" name="" type="_DNiFIPZ_Ee6Et8vXBhrtfA" association="_Ldl20PZ_Ee6Et8vXBhrtfA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Ldmd4PZ_Ee6Et8vXBhrtfA" name="" memberEnd="_LdeiEPZ_Ee6Et8vXBhrtfA _Ldmd4fZ_Ee6Et8vXBhrtfA">
+        <ownedEnd xmi:id="_Ldmd4fZ_Ee6Et8vXBhrtfA" name="" type="_DNiFIPZ_Ee6Et8vXBhrtfA" association="_Ldmd4PZ_Ee6Et8vXBhrtfA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Ldmd4vZ_Ee6Et8vXBhrtfA" name="" memberEnd="_LdfJIPZ_Ee6Et8vXBhrtfA _Ldmd4_Z_Ee6Et8vXBhrtfA">
+        <ownedEnd xmi:id="_Ldmd4_Z_Ee6Et8vXBhrtfA" name="" type="_DNiFIPZ_Ee6Et8vXBhrtfA" association="_Ldmd4vZ_Ee6Et8vXBhrtfA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_DKYDcPZ_Ee6Et8vXBhrtfA" name="ui">
+      <packagedElement xmi:type="uml:Class" xmi:id="_DKbt0PZ_Ee6Et8vXBhrtfA" name="PokeCollector">
+        <ownedAttribute xmi:id="_DNwHkPZ_Ee6Et8vXBhrtfA" name="myCollection" visibility="private" type="_DNiFIPZ_Ee6Et8vXBhrtfA" association="_DOKXQPZ_Ee6Et8vXBhrtfA"/>
+        <ownedAttribute xmi:id="_DN21QPZ_Ee6Et8vXBhrtfA" name="sc" visibility="private" type="_DNUCsPZ_Ee6Et8vXBhrtfA" association="_DOOBoPZ_Ee6Et8vXBhrtfA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DN9i8PZ_Ee6Et8vXBhrtfA" name="PokeCollector" specification="_DKwd8PZ_Ee6Et8vXBhrtfA">
+          <ownedParameter xmi:id="_DN-KAPZ_Ee6Et8vXBhrtfA" type="_DKbt0PZ_Ee6Et8vXBhrtfA" direction="return"/>
+          <language>java</language>
+          <body>sc= new Scanner(System.in);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DOB0YPZ_Ee6Et8vXBhrtfA" name="main" specification="_DK2kkPZ_Ee6Et8vXBhrtfA">
+          <ownedParameter xmi:id="_DOB0YfZ_Ee6Et8vXBhrtfA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DOB0YvZ_Ee6Et8vXBhrtfA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// TODO Auto-generated method stub
+		
+		PokeCollector pc= new PokeCollector();
+		
+	
+		System.out.println(&quot;Iniciando la aplicación&quot;);
+		
+		int option=0;
+		
+		do{
+			
+			option= pc.showMenu();
+			pc.executeOperation(option);
+			
+		}while (option!=0);
+		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DOCbcPZ_Ee6Et8vXBhrtfA" name="showMenu" specification="_DK95UPZ_Ee6Et8vXBhrtfA">
+          <ownedParameter xmi:id="_DOCbcfZ_Ee6Et8vXBhrtfA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int option=0;
+
+		System.out.println(
+				&quot;Menú principal, seleccione una opción\n&quot; +
+				&quot;(1) Para crear una colección \n&quot; +
+				&quot;(2) Para crear, editar o eliminar un álbum \n&quot; +
+				&quot;(3) Para mostrar la información de los albums en la colección \n&quot;+
+				&quot;(4) Para agregar un pokemon un álbum\n&quot;+
+				&quot;(0) Para salir&quot;
+				);
+		option= sc.nextInt();
+		sc.nextLine();
+		return option;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DOCbcvZ_Ee6Et8vXBhrtfA" name="executeOperation" specification="_DLBjsPZ_Ee6Et8vXBhrtfA">
+          <ownedParameter xmi:id="_DOCbc_Z_Ee6Et8vXBhrtfA" name="operation">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>switch(operation) {
+		case 0:
+			System.out.println(&quot;Bye!&quot;);
+			break;
+		case 1:
+			createCollection() ;
+			break;
+		case 2:
+			showMenuAlbum() ;
+			break;
+		case 3:
+			showAlbums();
+			break;
+	
+		case 4:
+			addPokeInAlbum();
+			break;
+
+
+		
+		default:
+			System.out.println(&quot;Error, opción no válida&quot;);
+		
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DODCgPZ_Ee6Et8vXBhrtfA" name="createCollection" specification="_DLCKwPZ_Ee6Et8vXBhrtfA">
+          <language>java</language>
+          <body>// 
+		System.out.println(&quot;Ingrese los datos de una colección&quot;);
+		String nom;
+		int day, month, year;
+
+		System.out.println(&quot;Nombre del dueño&quot;);
+		nom= sc.nextLine();
+
+		System.out.println(&quot;fecha&quot;);
+		
+
+		System.out.println(&quot;dia&quot;);
+		day= sc.nextInt();
+		sc.nextLine();
+
+		System.out.println(&quot;mes&quot;);
+		month= sc.nextInt();
+		sc.nextLine();
+
+		System.out.println(&quot;año&quot;);
+		year= sc.nextInt();
+		sc.nextLine();
+
+
+		myCollection = new Collection(nom, day, month, year);
+
+		System.out.println(&quot;La Colección  de &quot;+ nom + &quot; fue creada&quot;);
+
+
+
+
+
+		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DODCgfZ_Ee6Et8vXBhrtfA" name="showMenuAlbum" specification="_DLGcMPZ_Ee6Et8vXBhrtfA">
+          <language>java</language>
+          <body>int option=0;
+		System.out.println(
+				&quot;Menú Album\n&quot; +
+				&quot;(1) Para crear un álbum\n&quot; +
+				&quot;(2) Para editar un álbum\n&quot;+
+				&quot;(3) Para eliminar un álbum\n&quot;+
+				&quot;(0) Para volver&quot;
+				);
+		option= sc.nextInt();
+		sc.nextLine();
+		
+		switch(option) {
+		case 1:
+			createAlbum();
+			break;
+		case 2:
+			editAlbum();
+			break;
+		case 3: 
+			deleteAlbum();
+			break;
+		
+		}
+		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DODCgvZ_Ee6Et8vXBhrtfA" name="showAlbums" specification="_DLO_EPZ_Ee6Et8vXBhrtfA">
+          <language>java</language>
+          <body>if (myCollection.isEmpty()){
+			System.out.println(&quot;No hay albums registrados &quot;);
+		}else{
+			System.out.println(myCollection.showAlbums());
+		}
+		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DODpkPZ_Ee6Et8vXBhrtfA" name="createAlbum" specification="_DLYJAPZ_Ee6Et8vXBhrtfA">
+          <language>java</language>
+          <body>if(myCollection.hasAlbums()) {
+
+			System.out.println(&quot;Digite los datos del album a crear &quot;);
+
+
+			System.out.println(&quot;Nombre de la región del album:&quot;);
+			String nom= sc.nextLine();
+
+		
+			System.out.println(&quot;Cantidad de pokemones de la región&quot;);
+			int num = sc.nextInt();
+			sc.nextLine();
+			
+
+			myCollection.addAlbum(nom, num);
+
+			System.out.println(&quot;El album \&quot;&quot;+ nom +&quot;\&quot; ha sido creado con éxito\n&quot;);
+
+			
+		}else {
+			System.out.println(&quot;No puede crearse el álbum porque se llegó al límite\n&quot;);
+		}
+		
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_DKwd8PZ_Ee6Et8vXBhrtfA" name="PokeCollector" method="_DN9i8PZ_Ee6Et8vXBhrtfA">
+          <eAnnotations xmi:id="_DKxsEPZ_Ee6Et8vXBhrtfA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_DKyTIPZ_Ee6Et8vXBhrtfA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_DKy6MPZ_Ee6Et8vXBhrtfA" type="_DKbt0PZ_Ee6Et8vXBhrtfA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_DK2kkPZ_Ee6Et8vXBhrtfA" name="main" isStatic="true" method="_DOB0YPZ_Ee6Et8vXBhrtfA">
+          <ownedParameter xmi:id="_DK2kkfZ_Ee6Et8vXBhrtfA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DK5A0PZ_Ee6Et8vXBhrtfA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_DK95UPZ_Ee6Et8vXBhrtfA" name="showMenu" method="_DOCbcPZ_Ee6Et8vXBhrtfA">
+          <ownedParameter xmi:id="_DK_ugPZ_Ee6Et8vXBhrtfA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_DLBjsPZ_Ee6Et8vXBhrtfA" name="executeOperation" method="_DOCbcvZ_Ee6Et8vXBhrtfA">
+          <ownedParameter xmi:id="_DLBjsfZ_Ee6Et8vXBhrtfA" name="operation">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_DLCKwPZ_Ee6Et8vXBhrtfA" name="createCollection" visibility="private" method="_DODCgPZ_Ee6Et8vXBhrtfA"/>
+        <ownedOperation xmi:id="_DLCx0PZ_Ee6Et8vXBhrtfA" name="addPokeInAlbum" visibility="private"/>
+        <ownedOperation xmi:id="_DLGcMPZ_Ee6Et8vXBhrtfA" name="showMenuAlbum" visibility="private" method="_DODCgfZ_Ee6Et8vXBhrtfA"/>
+        <ownedOperation xmi:id="_DLHDQPZ_Ee6Et8vXBhrtfA" name="deleteAlbum" visibility="private"/>
+        <ownedOperation xmi:id="_DLHqUfZ_Ee6Et8vXBhrtfA" name="editAlbum" visibility="private"/>
+        <ownedOperation xmi:id="_DLO_EPZ_Ee6Et8vXBhrtfA" name="showAlbums" visibility="private" method="_DODCgvZ_Ee6Et8vXBhrtfA"/>
+        <ownedOperation xmi:id="_DLYJAPZ_Ee6Et8vXBhrtfA" name="createAlbum" visibility="private" method="_DODpkPZ_Ee6Et8vXBhrtfA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_DOKXQPZ_Ee6Et8vXBhrtfA" name="" memberEnd="_DOKXQfZ_Ee6Et8vXBhrtfA _DNwHkPZ_Ee6Et8vXBhrtfA">
+        <ownedEnd xmi:id="_DOKXQfZ_Ee6Et8vXBhrtfA" name="" type="_DKbt0PZ_Ee6Et8vXBhrtfA" association="_DOKXQPZ_Ee6Et8vXBhrtfA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_DOOBoPZ_Ee6Et8vXBhrtfA" name="" memberEnd="_DOOBofZ_Ee6Et8vXBhrtfA _DN21QPZ_Ee6Et8vXBhrtfA">
+        <ownedEnd xmi:id="_DOOBofZ_Ee6Et8vXBhrtfA" name="" type="_DKbt0PZ_Ee6Et8vXBhrtfA" association="_DOOBoPZ_Ee6Et8vXBhrtfA"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_DKdjAPZ_Ee6Et8vXBhrtfA">
+      <eAnnotations xmi:id="_DKhNYPZ_Ee6Et8vXBhrtfA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:Array xmi:id="_DK8EIPZ_Ee6Et8vXBhrtfA" base_Element="_DK2kkfZ_Ee6Et8vXBhrtfA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DLFOEPZ_Ee6Et8vXBhrtfA" base_Element="_DLCx0PZ_Ee6Et8vXBhrtfA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DLHqUPZ_Ee6Et8vXBhrtfA" base_Element="_DLHDQPZ_Ee6Et8vXBhrtfA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DLIRYPZ_Ee6Et8vXBhrtfA" base_Element="_DLHqUfZ_Ee6Et8vXBhrtfA"/>
+  <UMLLabProfile:Reference xmi:id="_DNaJUPZ_Ee6Et8vXBhrtfA" base_Element="_DNUCsPZ_Ee6Et8vXBhrtfA"/>
+  <UMLLabProfile:Reference xmi:id="_DNmWkPZ_Ee6Et8vXBhrtfA" base_Element="_DNlIcPZ_Ee6Et8vXBhrtfA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DN1nIPZ_Ee6Et8vXBhrtfA" base_Element="_DNwHkPZ_Ee6Et8vXBhrtfA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DN3cUPZ_Ee6Et8vXBhrtfA" base_Element="_DN21QPZ_Ee6Et8vXBhrtfA"/>
+  <UMLLabProfile:Reference xmi:id="_DONakPZ_Ee6Et8vXBhrtfA" base_Element="_DOKXQPZ_Ee6Et8vXBhrtfA"/>
+  <UMLLabProfile:Reference xmi:id="_DOPPwPZ_Ee6Et8vXBhrtfA" base_Element="_DOOBoPZ_Ee6Et8vXBhrtfA"/>
+  <UMLLabProfile:Reference xmi:id="_LdZpkPZ_Ee6Et8vXBhrtfA" base_Element="_LdXNUPZ_Ee6Et8vXBhrtfA"/>
+</xmi:XMI>

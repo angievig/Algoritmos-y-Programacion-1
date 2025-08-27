@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_EsJ0sPZ-Ee6Et8vXBhrtfA">
+  <modelElement href="pokeCollectorArray.uml#_DKYDcPZ_Ee6Et8vXBhrtfA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_DTfjMPZ_Ee6Et8vXBhrtfA" sourceAnchor="246.0,99.0" targetAnchor="0.0,151.0" target="_LgMe4PZ_Ee6Et8vXBhrtfA" source="_DTpUMPZ_Ee6Et8vXBhrtfA">
+    <modelElement href="pokeCollectorArray.uml#_DOKXQPZ_Ee6Et8vXBhrtfA"/>
+    <stereotypes xmi:id="_DTgxUPZ_Ee6Et8vXBhrtfA" name="Reference">
+      <modelElement href="pokeCollectorArray.uml#_DONakPZ_Ee6Et8vXBhrtfA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_DTgxUfZ_Ee6Et8vXBhrtfA" text="">
+      <visualProperties xmi:id="_LoYxkPZ_Ee6Et8vXBhrtfA" position="-20.5,-16.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_DTgxUvZ_Ee6Et8vXBhrtfA" aggregationKind="NONE" name="">
+      <modelElement href="pokeCollectorArray.uml#_DOKXQfZ_Ee6Et8vXBhrtfA"/>
+      <visualProperties xmi:id="_LoRc0PZ_Ee6Et8vXBhrtfA" position="13.411764705882376,2.5"/>
+      <visibility xmi:id="_DTgxU_Z_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_DTgxVPZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_DTgxVfZ_Ee6Et8vXBhrtfA" aggregationKind="NONE" name="myCollection" navigable="true">
+      <modelElement href="pokeCollectorArray.uml#_DNwHkPZ_Ee6Et8vXBhrtfA"/>
+      <visualProperties xmi:id="_Lob04PZ_Ee6Et8vXBhrtfA" position="-131.33333333333337,2.5"/>
+      <stereotypes xmi:id="_paHPIPbmEe6yd90b8Vk_Ew" name="LegacyStyledElement">
+        <modelElement href="pokeCollectorArray.uml#_DN1nIPZ_Ee6Et8vXBhrtfA"/>
+      </stereotypes>
+      <visibility xmi:id="_DTgxVvZ_Ee6Et8vXBhrtfA" label="-"/>
+      <cardinality xmi:id="_DTgxV_Z_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_DTnfAPZ_Ee6Et8vXBhrtfA" source="_DTpUMPZ_Ee6Et8vXBhrtfA">
+    <modelElement href="pokeCollectorArray.uml#_DOOBoPZ_Ee6Et8vXBhrtfA"/>
+    <stereotypes xmi:id="_DTnfAfZ_Ee6Et8vXBhrtfA" name="Reference">
+      <modelElement href="pokeCollectorArray.uml#_DOPPwPZ_Ee6Et8vXBhrtfA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_DTnfAvZ_Ee6Et8vXBhrtfA" text=""/>
+    <sourceRole xmi:id="_DTnfA_Z_Ee6Et8vXBhrtfA" aggregationKind="NONE" name="">
+      <modelElement href="pokeCollectorArray.uml#_DOOBofZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_DTnfBPZ_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_DTnfBfZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_DTnfBvZ_Ee6Et8vXBhrtfA" aggregationKind="NONE" name="sc" navigable="true">
+      <modelElement href="pokeCollectorArray.uml#_DN21QPZ_Ee6Et8vXBhrtfA"/>
+      <stereotypes xmi:id="_paPK8PbmEe6yd90b8Vk_Ew" name="LegacyStyledElement">
+        <modelElement href="pokeCollectorArray.uml#_DN3cUPZ_Ee6Et8vXBhrtfA"/>
+      </stereotypes>
+      <visibility xmi:id="_DTnfB_Z_Ee6Et8vXBhrtfA" label="-"/>
+      <cardinality xmi:id="_DTnfCPZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_LgDU8PZ_Ee6Et8vXBhrtfA" target="_LgMe4PZ_Ee6Et8vXBhrtfA">
+    <modelElement href="pokeCollectorArray.uml#_LdkBoPZ_Ee6Et8vXBhrtfA"/>
+    <nameVisual xmi:id="_LgDU8fZ_Ee6Et8vXBhrtfA" text=""/>
+    <sourceRole xmi:id="_LgD8APZ_Ee6Et8vXBhrtfA" aggregationKind="NONE" name="creationDate" navigable="true">
+      <modelElement href="pokeCollectorArray.uml#_LddT8PZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_LgD8AfZ_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_LgD8AvZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_LgD8A_Z_Ee6Et8vXBhrtfA" aggregationKind="NONE" name="">
+      <modelElement href="pokeCollectorArray.uml#_LdlPwPZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_LgD8BPZ_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_LgD8BfZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_LgKCoPZ_Ee6Et8vXBhrtfA" target="_LgMe4PZ_Ee6Et8vXBhrtfA">
+    <modelElement href="pokeCollectorArray.uml#_Ldl20PZ_Ee6Et8vXBhrtfA"/>
+    <nameVisual xmi:id="_LgKCofZ_Ee6Et8vXBhrtfA" text=""/>
+    <sourceRole xmi:id="_LgKCovZ_Ee6Et8vXBhrtfA" aggregationKind="NONE" name="album1" navigable="true">
+      <modelElement href="pokeCollectorArray.uml#_Ldd7APZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_LgKCo_Z_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_LgKCpPZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_LgKCpfZ_Ee6Et8vXBhrtfA" aggregationKind="NONE" name="">
+      <modelElement href="pokeCollectorArray.uml#_Ldl20fZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_LgKCpvZ_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_LgKCp_Z_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_LgLQwPZ_Ee6Et8vXBhrtfA" target="_LgMe4PZ_Ee6Et8vXBhrtfA">
+    <modelElement href="pokeCollectorArray.uml#_Ldmd4PZ_Ee6Et8vXBhrtfA"/>
+    <nameVisual xmi:id="_LgLQwfZ_Ee6Et8vXBhrtfA" text=""/>
+    <sourceRole xmi:id="_LgLQwvZ_Ee6Et8vXBhrtfA" aggregationKind="NONE" name="album2" navigable="true">
+      <modelElement href="pokeCollectorArray.uml#_LdeiEPZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_LgLQw_Z_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_LgLQxPZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_LgLQxfZ_Ee6Et8vXBhrtfA" aggregationKind="NONE" name="">
+      <modelElement href="pokeCollectorArray.uml#_Ldmd4fZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_LgLQxvZ_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_LgLQx_Z_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_LgL30PZ_Ee6Et8vXBhrtfA" target="_LgMe4PZ_Ee6Et8vXBhrtfA">
+    <modelElement href="pokeCollectorArray.uml#_Ldmd4vZ_Ee6Et8vXBhrtfA"/>
+    <nameVisual xmi:id="_LgL30fZ_Ee6Et8vXBhrtfA" text=""/>
+    <sourceRole xmi:id="_LgL30vZ_Ee6Et8vXBhrtfA" aggregationKind="NONE" name="album3" navigable="true">
+      <modelElement href="pokeCollectorArray.uml#_LdfJIPZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_LgL30_Z_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_LgL31PZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_LgL31fZ_Ee6Et8vXBhrtfA" aggregationKind="NONE" name="">
+      <modelElement href="pokeCollectorArray.uml#_Ldmd4_Z_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_LgL31vZ_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_LgL31_Z_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_DTpUMPZ_Ee6Et8vXBhrtfA" name="PokeCollector" associationsOut="_DTfjMPZ_Ee6Et8vXBhrtfA _DTnfAPZ_Ee6Et8vXBhrtfA">
+    <modelElement href="pokeCollectorArray.uml#_DKbt0PZ_Ee6Et8vXBhrtfA"/>
+    <visualProperties xmi:id="_DTpUMfZ_Ee6Et8vXBhrtfA" position="155.0,81.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_DTpUMvZ_Ee6Et8vXBhrtfA" label="+"/>
+    <attributes xmi:id="_DTpUM_Z_Ee6Et8vXBhrtfA" name="myCollection">
+      <modelElement href="pokeCollectorArray.uml#_DNwHkPZ_Ee6Et8vXBhrtfA"/>
+      <stereotypes xmi:id="_pbERYPbmEe6yd90b8Vk_Ew" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_pbMNMPbmEe6yd90b8Vk_Ew" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_pbehEPbmEe6yd90b8Vk_Ew" name="LegacyStyledElement"/>
+      <visibility xmi:id="_DTpUNfZ_Ee6Et8vXBhrtfA" label="-"/>
+      <cardinality xmi:id="_DTpUNvZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+      <type xmi:id="_DTp7QPZ_Ee6Et8vXBhrtfA" name="Collection">
+        <modelElement href="pokeCollectorArray.uml#_DNiFIPZ_Ee6Et8vXBhrtfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_DTp7QfZ_Ee6Et8vXBhrtfA" name="sc">
+      <modelElement href="pokeCollectorArray.uml#_DN21QPZ_Ee6Et8vXBhrtfA"/>
+      <stereotypes xmi:id="_pbRFsPbmEe6yd90b8Vk_Ew" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_pbVXIPbmEe6yd90b8Vk_Ew" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_pbgWQPbmEe6yd90b8Vk_Ew" name="LegacyStyledElement"/>
+      <visibility xmi:id="_DTp7Q_Z_Ee6Et8vXBhrtfA" label="-"/>
+      <cardinality xmi:id="_DTp7RPZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+      <type xmi:id="_DTp7RfZ_Ee6Et8vXBhrtfA" name="Scanner">
+        <modelElement href="pokeCollectorArray.uml#_DNUCsPZ_Ee6Et8vXBhrtfA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_DTp7RvZ_Ee6Et8vXBhrtfA" name="PokeCollector">
+      <modelElement href="pokeCollectorArray.uml#_DKwd8PZ_Ee6Et8vXBhrtfA"/>
+      <keywords xmi:id="_DTp7R_Z_Ee6Et8vXBhrtfA" keyword="create"/>
+      <visibility xmi:id="_DTp7SPZ_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_DTp7SfZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_DTp7SvZ_Ee6Et8vXBhrtfA">
+        <modelElement href="pokeCollectorArray.uml#_DKy6MPZ_Ee6Et8vXBhrtfA"/>
+        <type xmi:id="_DTp7S_Z_Ee6Et8vXBhrtfA" name="PokeCollector">
+          <modelElement href="pokeCollectorArray.uml#_DKbt0PZ_Ee6Et8vXBhrtfA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_DTp7TPZ_Ee6Et8vXBhrtfA" name="main" staticOperation="true">
+      <modelElement href="pokeCollectorArray.uml#_DK2kkPZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_DTp7TfZ_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_DTp7TvZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_DTp7T_Z_Ee6Et8vXBhrtfA" name="args">
+        <modelElement href="pokeCollectorArray.uml#_DK2kkfZ_Ee6Et8vXBhrtfA"/>
+        <cardinality xmi:id="_DTp7UPZ_Ee6Et8vXBhrtfA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_DTp7UfZ_Ee6Et8vXBhrtfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_DTp7UvZ_Ee6Et8vXBhrtfA" name="showMenu">
+      <modelElement href="pokeCollectorArray.uml#_DK95UPZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_DTp7U_Z_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_DTp7VPZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_DTp7VfZ_Ee6Et8vXBhrtfA">
+        <modelElement href="pokeCollectorArray.uml#_DK_ugPZ_Ee6Et8vXBhrtfA"/>
+        <type xmi:id="_DTp7VvZ_Ee6Et8vXBhrtfA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_DTp7V_Z_Ee6Et8vXBhrtfA" name="executeOperation">
+      <modelElement href="pokeCollectorArray.uml#_DLBjsPZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_DTp7WPZ_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_DTp7WfZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_DTp7WvZ_Ee6Et8vXBhrtfA" name="operation">
+        <modelElement href="pokeCollectorArray.uml#_DLBjsfZ_Ee6Et8vXBhrtfA"/>
+        <cardinality xmi:id="_DTp7W_Z_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+        <type xmi:id="_DTp7XPZ_Ee6Et8vXBhrtfA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_DTp7XfZ_Ee6Et8vXBhrtfA" name="createCollection">
+      <modelElement href="pokeCollectorArray.uml#_DLCKwPZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_DTp7XvZ_Ee6Et8vXBhrtfA" label="-"/>
+      <cardinality xmi:id="_DTp7X_Z_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_DTp7YPZ_Ee6Et8vXBhrtfA" name="addPokeInAlbum">
+      <modelElement href="pokeCollectorArray.uml#_DLCx0PZ_Ee6Et8vXBhrtfA"/>
+      <stereotypes xmi:id="_DTp7YfZ_Ee6Et8vXBhrtfA" name="LegacyStyledElement">
+        <modelElement href="pokeCollectorArray.uml#_DLFOEPZ_Ee6Et8vXBhrtfA"/>
+      </stereotypes>
+      <visibility xmi:id="_DTp7YvZ_Ee6Et8vXBhrtfA" label="-"/>
+      <cardinality xmi:id="_DTp7Y_Z_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_DTp7ZPZ_Ee6Et8vXBhrtfA" name="showMenuAlbum">
+      <modelElement href="pokeCollectorArray.uml#_DLGcMPZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_DTp7ZfZ_Ee6Et8vXBhrtfA" label="-"/>
+      <cardinality xmi:id="_DTp7ZvZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_DTp7Z_Z_Ee6Et8vXBhrtfA" name="deleteAlbum">
+      <modelElement href="pokeCollectorArray.uml#_DLHDQPZ_Ee6Et8vXBhrtfA"/>
+      <stereotypes xmi:id="_DTp7aPZ_Ee6Et8vXBhrtfA" name="LegacyStyledElement">
+        <modelElement href="pokeCollectorArray.uml#_DLHqUPZ_Ee6Et8vXBhrtfA"/>
+      </stereotypes>
+      <visibility xmi:id="_DTp7afZ_Ee6Et8vXBhrtfA" label="-"/>
+      <cardinality xmi:id="_DTp7avZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_DTp7a_Z_Ee6Et8vXBhrtfA" name="editAlbum">
+      <modelElement href="pokeCollectorArray.uml#_DLHqUfZ_Ee6Et8vXBhrtfA"/>
+      <stereotypes xmi:id="_DTp7bPZ_Ee6Et8vXBhrtfA" name="LegacyStyledElement">
+        <modelElement href="pokeCollectorArray.uml#_DLIRYPZ_Ee6Et8vXBhrtfA"/>
+      </stereotypes>
+      <visibility xmi:id="_DTp7bfZ_Ee6Et8vXBhrtfA" label="-"/>
+      <cardinality xmi:id="_DTp7bvZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_DTp7b_Z_Ee6Et8vXBhrtfA" name="showAlbums">
+      <modelElement href="pokeCollectorArray.uml#_DLO_EPZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_DTp7cPZ_Ee6Et8vXBhrtfA" label="-"/>
+      <cardinality xmi:id="_DTp7cfZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_DTp7cvZ_Ee6Et8vXBhrtfA" name="createAlbum">
+      <modelElement href="pokeCollectorArray.uml#_DLYJAPZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_DTp7c_Z_Ee6Et8vXBhrtfA" label="-"/>
+      <cardinality xmi:id="_DTp7dPZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_LgMe4PZ_Ee6Et8vXBhrtfA" name="Collection" associationsIn="_DTfjMPZ_Ee6Et8vXBhrtfA _LgDU8PZ_Ee6Et8vXBhrtfA _LgKCoPZ_Ee6Et8vXBhrtfA _LgLQwPZ_Ee6Et8vXBhrtfA _LgL30PZ_Ee6Et8vXBhrtfA">
+    <modelElement href="pokeCollectorArray.uml#_DNiFIPZ_Ee6Et8vXBhrtfA"/>
+    <visualProperties xmi:id="_LgMe4fZ_Ee6Et8vXBhrtfA" position="628.0,29.0" size="553.0,303.0"/>
+    <visibility xmi:id="_LgMe4vZ_Ee6Et8vXBhrtfA" label="+"/>
+    <attributes xmi:id="_LgMe4_Z_Ee6Et8vXBhrtfA" name="owner">
+      <modelElement href="pokeCollectorArray.uml#_LdcF0PZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_LgMe5PZ_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_LgMe5fZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+      <type xmi:id="_LgMe5vZ_Ee6Et8vXBhrtfA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_LgMe5_Z_Ee6Et8vXBhrtfA" name="creationDate">
+      <modelElement href="pokeCollectorArray.uml#_LddT8PZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_LgMe6PZ_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_LgMe6fZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+      <type xmi:id="_LgMe6vZ_Ee6Et8vXBhrtfA" name="Date">
+        <modelElement href="pokeCollectorArray.uml#_DNlIcPZ_Ee6Et8vXBhrtfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_LgMe6_Z_Ee6Et8vXBhrtfA" name="album1">
+      <modelElement href="pokeCollectorArray.uml#_Ldd7APZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_LgMe7PZ_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_LgMe7fZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+      <type xmi:id="_LgMe7vZ_Ee6Et8vXBhrtfA" name="Album">
+        <modelElement href="pokeCollectorArray.uml#_LdXNUPZ_Ee6Et8vXBhrtfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_LgMe7_Z_Ee6Et8vXBhrtfA" name="album2">
+      <modelElement href="pokeCollectorArray.uml#_LdeiEPZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_LgMe8PZ_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_LgMe8fZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+      <type xmi:id="_LgMe8vZ_Ee6Et8vXBhrtfA" name="Album">
+        <modelElement href="pokeCollectorArray.uml#_LdXNUPZ_Ee6Et8vXBhrtfA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_LgMe8_Z_Ee6Et8vXBhrtfA" name="album3">
+      <modelElement href="pokeCollectorArray.uml#_LdfJIPZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_LgMe9PZ_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_LgMe9fZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+      <type xmi:id="_LgMe9vZ_Ee6Et8vXBhrtfA" name="Album">
+        <modelElement href="pokeCollectorArray.uml#_LdXNUPZ_Ee6Et8vXBhrtfA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_LgMe9_Z_Ee6Et8vXBhrtfA" name="Collection">
+      <modelElement href="pokeCollectorArray.uml#_Lb3_kPZ_Ee6Et8vXBhrtfA"/>
+      <keywords xmi:id="_LgMe-PZ_Ee6Et8vXBhrtfA" keyword="create"/>
+      <visibility xmi:id="_LgMe-fZ_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_LgMe-vZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LgMe-_Z_Ee6Et8vXBhrtfA">
+        <modelElement href="pokeCollectorArray.uml#_Lb_7YPZ_Ee6Et8vXBhrtfA"/>
+        <type xmi:id="_LgMe_PZ_Ee6Et8vXBhrtfA" name="Collection">
+          <modelElement href="pokeCollectorArray.uml#_DNiFIPZ_Ee6Et8vXBhrtfA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_LgMe_fZ_Ee6Et8vXBhrtfA" name="owner">
+        <modelElement href="pokeCollectorArray.uml#_Lb7p8PZ_Ee6Et8vXBhrtfA"/>
+        <cardinality xmi:id="_LgMe_vZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+        <type xmi:id="_LgMe__Z_Ee6Et8vXBhrtfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_LgMfAPZ_Ee6Et8vXBhrtfA" name="day">
+        <modelElement href="pokeCollectorArray.uml#_Lb84EPZ_Ee6Et8vXBhrtfA"/>
+        <cardinality xmi:id="_LgMfAfZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+        <type xmi:id="_LgMfAvZ_Ee6Et8vXBhrtfA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_LgMfA_Z_Ee6Et8vXBhrtfA" name="month">
+        <modelElement href="pokeCollectorArray.uml#_Lb9fIPZ_Ee6Et8vXBhrtfA"/>
+        <cardinality xmi:id="_LgMfBPZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+        <type xmi:id="_LgMfBfZ_Ee6Et8vXBhrtfA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_LgMfBvZ_Ee6Et8vXBhrtfA" name="year">
+        <modelElement href="pokeCollectorArray.uml#_Lb9fIfZ_Ee6Et8vXBhrtfA"/>
+        <cardinality xmi:id="_LgMfB_Z_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+        <type xmi:id="_LgMfCPZ_Ee6Et8vXBhrtfA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_LgMfCfZ_Ee6Et8vXBhrtfA" name="toString">
+      <modelElement href="pokeCollectorArray.uml#_LcBJgPZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_LgMfCvZ_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_LgMfC_Z_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LgMfDPZ_Ee6Et8vXBhrtfA">
+        <modelElement href="pokeCollectorArray.uml#_LcC-sPZ_Ee6Et8vXBhrtfA"/>
+        <type xmi:id="_LgMfDfZ_Ee6Et8vXBhrtfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_LgMfDvZ_Ee6Et8vXBhrtfA" name="hasAlbums">
+      <modelElement href="pokeCollectorArray.uml#_LcDlwPZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_LgMfD_Z_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_LgMfEPZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LgMfEfZ_Ee6Et8vXBhrtfA">
+        <modelElement href="pokeCollectorArray.uml#_LcDlwfZ_Ee6Et8vXBhrtfA"/>
+        <type xmi:id="_LgMfEvZ_Ee6Et8vXBhrtfA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_LgMfE_Z_Ee6Et8vXBhrtfA" name="showAlbums">
+      <modelElement href="pokeCollectorArray.uml#_LcDlwvZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_LgMfFPZ_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_LgMfFfZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LgMfFvZ_Ee6Et8vXBhrtfA">
+        <modelElement href="pokeCollectorArray.uml#_LcDlw_Z_Ee6Et8vXBhrtfA"/>
+        <type xmi:id="_LgMfF_Z_Ee6Et8vXBhrtfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_LgMfGPZ_Ee6Et8vXBhrtfA" name="addAlbum">
+      <modelElement href="pokeCollectorArray.uml#_LcDlxPZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_LgMfGfZ_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_LgMfGvZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_LgMfG_Z_Ee6Et8vXBhrtfA" name="tit">
+        <modelElement href="pokeCollectorArray.uml#_LcDlxfZ_Ee6Et8vXBhrtfA"/>
+        <cardinality xmi:id="_LgMfHPZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+        <type xmi:id="_LgMfHfZ_Ee6Et8vXBhrtfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_LgMfHvZ_Ee6Et8vXBhrtfA" name="num">
+        <modelElement href="pokeCollectorArray.uml#_LcDlxvZ_Ee6Et8vXBhrtfA"/>
+        <cardinality xmi:id="_LgMfH_Z_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+        <type xmi:id="_LgMfIPZ_Ee6Et8vXBhrtfA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_LgMfIfZ_Ee6Et8vXBhrtfA" name="isEmpty">
+      <modelElement href="pokeCollectorArray.uml#_LcEM0PZ_Ee6Et8vXBhrtfA"/>
+      <visibility xmi:id="_LgMfIvZ_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_LgMfI_Z_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LgMfJPZ_Ee6Et8vXBhrtfA">
+        <modelElement href="pokeCollectorArray.uml#_LcEM0fZ_Ee6Et8vXBhrtfA"/>
+        <type xmi:id="_LgMfJfZ_Ee6Et8vXBhrtfA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_LgMfJvZ_Ee6Et8vXBhrtfA" name="Collection">
+      <modelElement href="pokeCollectorArray.uml#_LdUxEPZ_Ee6Et8vXBhrtfA"/>
+      <keywords xmi:id="_LgMfJ_Z_Ee6Et8vXBhrtfA" keyword="create"/>
+      <visibility xmi:id="_LgMfKPZ_Ee6Et8vXBhrtfA" label="+"/>
+      <cardinality xmi:id="_LgMfKfZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LgMfKvZ_Ee6Et8vXBhrtfA">
+        <modelElement href="pokeCollectorArray.uml#_LdVYIvZ_Ee6Et8vXBhrtfA"/>
+        <type xmi:id="_LgMfK_Z_Ee6Et8vXBhrtfA" name="Collection">
+          <modelElement href="pokeCollectorArray.uml#_DNiFIPZ_Ee6Et8vXBhrtfA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_LgMfLPZ_Ee6Et8vXBhrtfA" name="owner">
+        <modelElement href="pokeCollectorArray.uml#_LdUxEfZ_Ee6Et8vXBhrtfA"/>
+        <cardinality xmi:id="_LgMfLfZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+        <type xmi:id="_LgMfLvZ_Ee6Et8vXBhrtfA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_LgMfL_Z_Ee6Et8vXBhrtfA" name="creationDate">
+        <modelElement href="pokeCollectorArray.uml#_LdUxEvZ_Ee6Et8vXBhrtfA"/>
+        <cardinality xmi:id="_LgMfMPZ_Ee6Et8vXBhrtfA" label="1" max="1" min="1"/>
+        <type xmi:id="_LgMfMfZ_Ee6Et8vXBhrtfA" name="Date">
+          <modelElement href="pokeCollectorArray.uml#_DNlIcPZ_Ee6Et8vXBhrtfA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

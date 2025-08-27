@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_CiKCQA07Ee-QGv5MCMKPrQ">
+  <modelElement href="northPoleApp.uml#_CeGBoA07Ee-QGv5MCMKPrQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EmLIcA07Ee-QGv5MCMKPrQ" targetItem="_EmmmUw07Ee-QGv5MCMKPrQ" sourceItem="_El9GAA07Ee-QGv5MCMKPrQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EmTrUQ07Ee-QGv5MCMKPrQ" targetItem="_EmmmWA07Ee-QGv5MCMKPrQ" sourceItem="_EmTrUA07Ee-QGv5MCMKPrQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EmU5cQ07Ee-QGv5MCMKPrQ" targetItem="_EmmmXg07Ee-QGv5MCMKPrQ" sourceItem="_EmU5cA07Ee-QGv5MCMKPrQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EmVggQ07Ee-QGv5MCMKPrQ" targetItem="_EmmmYw07Ee-QGv5MCMKPrQ" sourceItem="_EmVggA07Ee-QGv5MCMKPrQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_EmkxEA07Ee-QGv5MCMKPrQ" sourceAnchor="213.0,0.0" targetAnchor="237.0,230.0" target="_Eml_MA07Ee-QGv5MCMKPrQ" source="_EpQ4sA07Ee-QGv5MCMKPrQ">
+    <modelElement href="northPoleApp.uml#_DYRK4A07Ee-QGv5MCMKPrQ"/>
+    <nameVisual xmi:id="_EmkxEQ07Ee-QGv5MCMKPrQ" text="">
+      <visualProperties xmi:id="_FHFdIA07Ee-QGv5MCMKPrQ" position="-5.5,-11.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_EmlYIA07Ee-QGv5MCMKPrQ" aggregationKind="NONE" name="location" navigable="true">
+      <modelElement href="northPoleApp.uml#_DW5R4A07Ee-QGv5MCMKPrQ"/>
+      <visualProperties xmi:id="_FHDA4A07Ee-QGv5MCMKPrQ" position="-67.0,-45.5"/>
+      <visibility xmi:id="_EmlYIQ07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_EmlYIg07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_EmlYIw07Ee-QGv5MCMKPrQ" aggregationKind="NONE" name="">
+      <modelElement href="northPoleApp.uml#_DYSZAA07Ee-QGv5MCMKPrQ"/>
+      <visualProperties xmi:id="_FHFdIQ07Ee-QGv5MCMKPrQ" position="6.0,5.0"/>
+      <visibility xmi:id="_EmlYJA07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_EmlYJQ07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_EqOiAA07Ee-QGv5MCMKPrQ" source="_EqQ-QA07Ee-QGv5MCMKPrQ">
+    <modelElement href="northPoleApp.uml#_DYqMcA07Ee-QGv5MCMKPrQ"/>
+    <stereotypes xmi:id="_EqOiAQ07Ee-QGv5MCMKPrQ" name="Reference">
+      <modelElement href="northPoleApp.uml#_DYvsAA07Ee-QGv5MCMKPrQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_EqOiAg07Ee-QGv5MCMKPrQ" text=""/>
+    <sourceRole xmi:id="_EqOiAw07Ee-QGv5MCMKPrQ" aggregationKind="NONE" name="">
+      <modelElement href="northPoleApp.uml#_DYqMcQ07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_EqOiBA07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_EqOiBQ07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_EqOiBg07Ee-QGv5MCMKPrQ" aggregationKind="NONE" name="naugthy" navigable="true">
+      <modelElement href="northPoleApp.uml#_DXLlwA07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_EqOiBw07Ee-QGv5MCMKPrQ" label="-"/>
+      <cardinality xmi:id="_EqOiCA07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_EqQXMA07Ee-QGv5MCMKPrQ" source="_EqQ-QA07Ee-QGv5MCMKPrQ">
+    <modelElement href="northPoleApp.uml#_DYwTEA07Ee-QGv5MCMKPrQ"/>
+    <stereotypes xmi:id="_EqQXMQ07Ee-QGv5MCMKPrQ" name="Reference">
+      <modelElement href="northPoleApp.uml#_DYw6IA07Ee-QGv5MCMKPrQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_EqQXMg07Ee-QGv5MCMKPrQ" text=""/>
+    <sourceRole xmi:id="_EqQXMw07Ee-QGv5MCMKPrQ" aggregationKind="NONE" name="">
+      <modelElement href="northPoleApp.uml#_DYwTEQ07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_EqQXNA07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_EqQXNQ07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_EqQXNg07Ee-QGv5MCMKPrQ" aggregationKind="NONE" name="good" navigable="true">
+      <modelElement href="northPoleApp.uml#_DXP3MA07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_EqQXNw07Ee-QGv5MCMKPrQ" label="-"/>
+      <cardinality xmi:id="_EqQXOA07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ErFdoA07Ee-QGv5MCMKPrQ" sourceAnchor="129.0,0.0" targetAnchor="309.0,116.0" target="_EqQ-QA07Ee-QGv5MCMKPrQ" source="_Er5V8A07Ee-QGv5MCMKPrQ">
+    <modelElement href="northPoleApp.uml#_DY0kgQ07Ee-QGv5MCMKPrQ"/>
+    <stereotypes xmi:id="_ErOAgQ07Ee-QGv5MCMKPrQ" name="Reference">
+      <modelElement href="northPoleApp.uml#_DY1LkA07Ee-QGv5MCMKPrQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ErMyYQ07Ee-QGv5MCMKPrQ" text="">
+      <visualProperties xmi:id="_FHGEMA07Ee-QGv5MCMKPrQ" position="-21.0,-7.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ErNZcA07Ee-QGv5MCMKPrQ" aggregationKind="NONE" name="">
+      <modelElement href="northPoleApp.uml#_DY0kgg07Ee-QGv5MCMKPrQ"/>
+      <visualProperties xmi:id="_FHFdIg07Ee-QGv5MCMKPrQ" position="-20.0,-45.5"/>
+      <visibility xmi:id="_Ero3QA07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_EroQMA07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ErOAgA07Ee-QGv5MCMKPrQ" aggregationKind="NONE" name="controller" navigable="true">
+      <modelElement href="northPoleApp.uml#_DXUIoA07Ee-QGv5MCMKPrQ"/>
+      <visualProperties xmi:id="_FHHSUA07Ee-QGv5MCMKPrQ" position="6.5,5.0"/>
+      <visibility xmi:id="_Ero3Qg07Ee-QGv5MCMKPrQ" label="-"/>
+      <cardinality xmi:id="_Ero3QQ07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Er25sA07Ee-QGv5MCMKPrQ" source="_Er5V8A07Ee-QGv5MCMKPrQ">
+    <modelElement href="northPoleApp.uml#_DYxhMA07Ee-QGv5MCMKPrQ"/>
+    <stereotypes xmi:id="_Er25sQ07Ee-QGv5MCMKPrQ" name="Reference">
+      <modelElement href="northPoleApp.uml#_DY0kgA07Ee-QGv5MCMKPrQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Er25sg07Ee-QGv5MCMKPrQ" text=""/>
+    <sourceRole xmi:id="_Er25sw07Ee-QGv5MCMKPrQ" aggregationKind="NONE" name="">
+      <modelElement href="northPoleApp.uml#_DYxhMQ07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_Er3gwA07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_Er3gwQ07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Er3gwg07Ee-QGv5MCMKPrQ" aggregationKind="NONE" name="sc" navigable="true">
+      <modelElement href="northPoleApp.uml#_DXS6gA07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_Er3gww07Ee-QGv5MCMKPrQ" label="-"/>
+      <cardinality xmi:id="_Er3gxA07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qvm2QA0-Ee-QGv5MCMKPrQ" targetItem="_95VLEA08Ee-QGv5MCMKPrQ" sourceItem="_qvloIA0-Ee-QGv5MCMKPrQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_7qUq8A0-Ee-QGv5MCMKPrQ" targetItem="_Er5V8A07Ee-QGv5MCMKPrQ" sourceItem="_7qTc0A0-Ee-QGv5MCMKPrQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_7qrQQA0-Ee-QGv5MCMKPrQ" targetItem="_Er59AA07Ee-QGv5MCMKPrQ" sourceItem="_7qqpMA0-Ee-QGv5MCMKPrQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_7qvhsQ0-Ee-QGv5MCMKPrQ" targetItem="_Er59Bg07Ee-QGv5MCMKPrQ" sourceItem="_7qvhsA0-Ee-QGv5MCMKPrQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_7qzMEQ0-Ee-QGv5MCMKPrQ" targetItem="_Er59DA07Ee-QGv5MCMKPrQ" sourceItem="_7qzMEA0-Ee-QGv5MCMKPrQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_7q3dgQ0-Ee-QGv5MCMKPrQ" targetItem="_Er59EQ07Ee-QGv5MCMKPrQ" sourceItem="_7q3dgA0-Ee-QGv5MCMKPrQ"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_El9GAA07Ee-QGv5MCMKPrQ" sourceConnectionVisual="_EmLIcA07Ee-QGv5MCMKPrQ" text="@return the name" item="_EmmmUw07Ee-QGv5MCMKPrQ">
+    <modelElement href="northPoleApp.uml#_DYUOMA07Ee-QGv5MCMKPrQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EmTrUA07Ee-QGv5MCMKPrQ" sourceConnectionVisual="_EmTrUQ07Ee-QGv5MCMKPrQ" text="@param name the name to set" item="_EmmmWA07Ee-QGv5MCMKPrQ">
+    <modelElement href="northPoleApp.uml#_DYVcUA07Ee-QGv5MCMKPrQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EmU5cA07Ee-QGv5MCMKPrQ" sourceConnectionVisual="_EmU5cQ07Ee-QGv5MCMKPrQ" text="@return the lName" item="_EmmmXg07Ee-QGv5MCMKPrQ">
+    <modelElement href="northPoleApp.uml#_DYVcUQ07Ee-QGv5MCMKPrQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EmVggA07Ee-QGv5MCMKPrQ" sourceConnectionVisual="_EmVggQ07Ee-QGv5MCMKPrQ" text="@param lName the lName to set" item="_EmmmYw07Ee-QGv5MCMKPrQ">
+    <modelElement href="northPoleApp.uml#_DYVcUg07Ee-QGv5MCMKPrQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Eml_MA07Ee-QGv5MCMKPrQ" name="Child" associationsIn="_EmkxEA07Ee-QGv5MCMKPrQ">
+    <modelElement href="northPoleApp.uml#_DNHq0A07Ee-QGv5MCMKPrQ"/>
+    <visualProperties xmi:id="_Eml_MQ07Ee-QGv5MCMKPrQ" position="535.0,-241.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Eml_Mg07Ee-QGv5MCMKPrQ" label="+"/>
+    <attributes xmi:id="_Eml_Mw07Ee-QGv5MCMKPrQ" name="name">
+      <modelElement href="northPoleApp.uml#_DWxWEA07Ee-QGv5MCMKPrQ"/>
+      <stereotypes xmi:id="_Eml_NA07Ee-QGv5MCMKPrQ" name="LegacyStyledElement">
+        <modelElement href="northPoleApp.uml#_DW1AcA07Ee-QGv5MCMKPrQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Eml_NQ07Ee-QGv5MCMKPrQ" label="-"/>
+      <cardinality xmi:id="_Eml_Ng07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <type xmi:id="_EmmmQA07Ee-QGv5MCMKPrQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EmmmQQ07Ee-QGv5MCMKPrQ" name="lName">
+      <modelElement href="northPoleApp.uml#_DW21oA07Ee-QGv5MCMKPrQ"/>
+      <stereotypes xmi:id="_EmmmQg07Ee-QGv5MCMKPrQ" name="LegacyStyledElement">
+        <modelElement href="northPoleApp.uml#_DW4DwA07Ee-QGv5MCMKPrQ"/>
+      </stereotypes>
+      <visibility xmi:id="_EmmmQw07Ee-QGv5MCMKPrQ" label="-"/>
+      <cardinality xmi:id="_EmmmRA07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <type xmi:id="_EmmmRQ07Ee-QGv5MCMKPrQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EmmmRg07Ee-QGv5MCMKPrQ" name="wish">
+      <modelElement href="northPoleApp.uml#_DW4DwQ07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_EmmmRw07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_EmmmSA07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <type xmi:id="_EmmmSQ07Ee-QGv5MCMKPrQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EmmmSg07Ee-QGv5MCMKPrQ" name="location">
+      <modelElement href="northPoleApp.uml#_DW5R4A07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_EmmmSw07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_EmmmTA07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <type xmi:id="_EmmmTQ07Ee-QGv5MCMKPrQ" name="Location">
+        <modelElement href="northPoleApp.uml#_DQcroA07Ee-QGv5MCMKPrQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_EmmmTg07Ee-QGv5MCMKPrQ" name="toString">
+      <modelElement href="northPoleApp.uml#_DNdCAA07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_EmmmTw07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_EmmmUA07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EmmmUQ07Ee-QGv5MCMKPrQ">
+        <modelElement href="northPoleApp.uml#_DNgFUA07Ee-QGv5MCMKPrQ"/>
+        <type xmi:id="_EmmmUg07Ee-QGv5MCMKPrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EmmmUw07Ee-QGv5MCMKPrQ" comments="_El9GAA07Ee-QGv5MCMKPrQ" targetConnectionVisual="_EmLIcA07Ee-QGv5MCMKPrQ" name="getName">
+      <modelElement href="northPoleApp.uml#_DNjIoA07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_EmmmVA07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_EmmmVQ07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EmmmVg07Ee-QGv5MCMKPrQ">
+        <modelElement href="northPoleApp.uml#_DNmL8A07Ee-QGv5MCMKPrQ"/>
+        <type xmi:id="_EmmmVw07Ee-QGv5MCMKPrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EmmmWA07Ee-QGv5MCMKPrQ" comments="_EmTrUA07Ee-QGv5MCMKPrQ" targetConnectionVisual="_EmTrUQ07Ee-QGv5MCMKPrQ" name="setName">
+      <modelElement href="northPoleApp.uml#_DNnaEA07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_EmmmWQ07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_EmmmWg07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_EmmmWw07Ee-QGv5MCMKPrQ" name="name">
+        <modelElement href="northPoleApp.uml#_DNnaEQ07Ee-QGv5MCMKPrQ"/>
+        <cardinality xmi:id="_EmmmXA07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_EmmmXQ07Ee-QGv5MCMKPrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_EmmmXg07Ee-QGv5MCMKPrQ" comments="_EmU5cA07Ee-QGv5MCMKPrQ" targetConnectionVisual="_EmU5cQ07Ee-QGv5MCMKPrQ" name="getlName">
+      <modelElement href="northPoleApp.uml#_DNooMA07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_EmmmXw07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_EmmmYA07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EmmmYQ07Ee-QGv5MCMKPrQ">
+        <modelElement href="northPoleApp.uml#_DNp2UA07Ee-QGv5MCMKPrQ"/>
+        <type xmi:id="_EmmmYg07Ee-QGv5MCMKPrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EmmmYw07Ee-QGv5MCMKPrQ" comments="_EmVggA07Ee-QGv5MCMKPrQ" targetConnectionVisual="_EmVggQ07Ee-QGv5MCMKPrQ" name="setlName">
+      <modelElement href="northPoleApp.uml#_DN9_YA07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_EmmmZA07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_EmmmZQ07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_EmmmZg07Ee-QGv5MCMKPrQ" name="lName">
+        <modelElement href="northPoleApp.uml#_DPFZsA07Ee-QGv5MCMKPrQ"/>
+        <cardinality xmi:id="_EmmmZw07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_EmmmaA07Ee-QGv5MCMKPrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_EmmmaQ07Ee-QGv5MCMKPrQ" name="Child">
+      <modelElement href="northPoleApp.uml#_DVkcMA07Ee-QGv5MCMKPrQ"/>
+      <keywords xmi:id="_Emmmag07Ee-QGv5MCMKPrQ" keyword="create"/>
+      <visibility xmi:id="_Emmmaw07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_EmmmbA07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EmmmbQ07Ee-QGv5MCMKPrQ">
+        <modelElement href="northPoleApp.uml#_DVmRZA07Ee-QGv5MCMKPrQ"/>
+        <type xmi:id="_Emmmbg07Ee-QGv5MCMKPrQ" name="Child">
+          <modelElement href="northPoleApp.uml#_DNHq0A07Ee-QGv5MCMKPrQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Emmmbw07Ee-QGv5MCMKPrQ" name="pname">
+        <modelElement href="northPoleApp.uml#_DVlqUA07Ee-QGv5MCMKPrQ"/>
+        <cardinality xmi:id="_EmmmcA07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_EmmmcQ07Ee-QGv5MCMKPrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Emmmcg07Ee-QGv5MCMKPrQ" name="plName">
+        <modelElement href="northPoleApp.uml#_DVlqUQ07Ee-QGv5MCMKPrQ"/>
+        <cardinality xmi:id="_Emmmcw07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_EmmmdA07Ee-QGv5MCMKPrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EmmmdQ07Ee-QGv5MCMKPrQ" name="pwish">
+        <modelElement href="northPoleApp.uml#_DVmRYA07Ee-QGv5MCMKPrQ"/>
+        <cardinality xmi:id="_Emmmdg07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_Emmmdw07Ee-QGv5MCMKPrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EmmmeA07Ee-QGv5MCMKPrQ" name="loc">
+        <modelElement href="northPoleApp.uml#_DVmRYQ07Ee-QGv5MCMKPrQ"/>
+        <cardinality xmi:id="_EmmmeQ07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_Emmmeg07Ee-QGv5MCMKPrQ" name="Location">
+          <modelElement href="northPoleApp.uml#_DQcroA07Ee-QGv5MCMKPrQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Emmmew07Ee-QGv5MCMKPrQ" name="equals">
+      <modelElement href="northPoleApp.uml#_DWVRMQ07Ee-QGv5MCMKPrQ"/>
+      <stereotypes xmi:id="_EmmmfA07Ee-QGv5MCMKPrQ" name="LegacyStyledElement">
+        <modelElement href="northPoleApp.uml#_DWY7kA07Ee-QGv5MCMKPrQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EmmmfQ07Ee-QGv5MCMKPrQ" name="Annotations">
+        <modelElement href="northPoleApp.uml#_DWmW8A07Ee-QGv5MCMKPrQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Emmmfg07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_Emmmfw07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EmmmgA07Ee-QGv5MCMKPrQ">
+        <modelElement href="northPoleApp.uml#_DWXtcA07Ee-QGv5MCMKPrQ"/>
+        <type xmi:id="_EmmmgQ07Ee-QGv5MCMKPrQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Emmmgg07Ee-QGv5MCMKPrQ" name="obj">
+        <modelElement href="northPoleApp.uml#_DWV4QA07Ee-QGv5MCMKPrQ"/>
+        <cardinality xmi:id="_Emmmgw07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_EmmmhA07Ee-QGv5MCMKPrQ" name="Object">
+          <modelElement href="northPoleApp.uml#_DWTcAA07Ee-QGv5MCMKPrQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_EpQ4sA07Ee-QGv5MCMKPrQ" name="Location" associationsOut="_EmkxEA07Ee-QGv5MCMKPrQ">
+    <modelElement href="northPoleApp.uml#_DQcroA07Ee-QGv5MCMKPrQ"/>
+    <visualProperties xmi:id="_EpQ4sQ07Ee-QGv5MCMKPrQ" position="559.0,183.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_EpQ4sg07Ee-QGv5MCMKPrQ" label="+"/>
+    <attributes xmi:id="_EpQ4sw07Ee-QGv5MCMKPrQ" name="address">
+      <modelElement href="northPoleApp.uml#_DW__kA07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_EpQ4tQ07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_EpQ4tg07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <type xmi:id="_EpQ4tw07Ee-QGv5MCMKPrQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EpQ4uA07Ee-QGv5MCMKPrQ" name="country">
+      <modelElement href="northPoleApp.uml#_DXB0wA07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_EpQ4ug07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_EpQ4uw07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <type xmi:id="_EpQ4vA07Ee-QGv5MCMKPrQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EpQ4vQ07Ee-QGv5MCMKPrQ" name="city">
+      <modelElement href="northPoleApp.uml#_DXERAA07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_EpQ4vw07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_EpQ4wA07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <type xmi:id="_EpQ4wQ07Ee-QGv5MCMKPrQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_EpQ4wg07Ee-QGv5MCMKPrQ" name="Location">
+      <modelElement href="northPoleApp.uml#_DRIoIA07Ee-QGv5MCMKPrQ"/>
+      <keywords xmi:id="_EpQ4ww07Ee-QGv5MCMKPrQ" keyword="create"/>
+      <visibility xmi:id="_EpQ4xA07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_EpQ4xQ07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EpQ4xg07Ee-QGv5MCMKPrQ">
+        <modelElement href="northPoleApp.uml#_DRPV0A07Ee-QGv5MCMKPrQ"/>
+        <type xmi:id="_EpQ4xw07Ee-QGv5MCMKPrQ" name="Location">
+          <modelElement href="northPoleApp.uml#_DQcroA07Ee-QGv5MCMKPrQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_EpQ4yA07Ee-QGv5MCMKPrQ" name="address">
+        <modelElement href="northPoleApp.uml#_DRIoIQ07Ee-QGv5MCMKPrQ"/>
+        <cardinality xmi:id="_EpQ4yQ07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_EpQ4yg07Ee-QGv5MCMKPrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EpQ4yw07Ee-QGv5MCMKPrQ" name="country">
+        <modelElement href="northPoleApp.uml#_DRJ2QA07Ee-QGv5MCMKPrQ"/>
+        <cardinality xmi:id="_EpQ4zA07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_EpQ4zQ07Ee-QGv5MCMKPrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EpQ4zg07Ee-QGv5MCMKPrQ" name="city">
+        <modelElement href="northPoleApp.uml#_DRJ2QQ07Ee-QGv5MCMKPrQ"/>
+        <cardinality xmi:id="_EpQ4zw07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_EpQ40A07Ee-QGv5MCMKPrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_EpQ40Q07Ee-QGv5MCMKPrQ" name="toString">
+      <modelElement href="northPoleApp.uml#_DRWqkA07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_EpQ40g07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_EpQ40w07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EpQ41A07Ee-QGv5MCMKPrQ">
+        <modelElement href="northPoleApp.uml#_DRXRoA07Ee-QGv5MCMKPrQ"/>
+        <type xmi:id="_EpQ41Q07Ee-QGv5MCMKPrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_-YFZEA07Ee-QGv5MCMKPrQ" name="equals">
+      <modelElement href="northPoleApp.uml#_-XVyMA07Ee-QGv5MCMKPrQ"/>
+      <stereotypes xmi:id="_-YGAIA07Ee-QGv5MCMKPrQ" name="Annotations">
+        <modelElement href="northPoleApp.uml#_-XbRwA07Ee-QGv5MCMKPrQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_-YGAIQ07Ee-QGv5MCMKPrQ" name="LegacyStyledElement">
+        <modelElement href="northPoleApp.uml#_-XpUMA07Ee-QGv5MCMKPrQ"/>
+      </stereotypes>
+      <visibility xmi:id="_-YGAIg07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_-YGnMA07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-YGnMQ07Ee-QGv5MCMKPrQ">
+        <modelElement href="northPoleApp.uml#_-XuMsA07Ee-QGv5MCMKPrQ"/>
+        <type xmi:id="_-YGnMg07Ee-QGv5MCMKPrQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-YGnMw07Ee-QGv5MCMKPrQ" name="obj">
+        <modelElement href="northPoleApp.uml#_-XY1gA07Ee-QGv5MCMKPrQ"/>
+        <cardinality xmi:id="_-YGnNA07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_-YGnNQ07Ee-QGv5MCMKPrQ" name="Object">
+          <modelElement href="northPoleApp.uml#_DWTcAA07Ee-QGv5MCMKPrQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_EqQ-QA07Ee-QGv5MCMKPrQ" name="NorthPoleController" associationsIn="_ErFdoA07Ee-QGv5MCMKPrQ" associationsOut="_EqOiAA07Ee-QGv5MCMKPrQ _EqQXMA07Ee-QGv5MCMKPrQ">
+    <modelElement href="northPoleApp.uml#_DRZt4A07Ee-QGv5MCMKPrQ"/>
+    <visualProperties xmi:id="_EqQ-QQ07Ee-QGv5MCMKPrQ" position="528.0,388.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_EqQ-Qg07Ee-QGv5MCMKPrQ" label="+"/>
+    <attributes xmi:id="_EqQ-Qw07Ee-QGv5MCMKPrQ" name="naugthy">
+      <modelElement href="northPoleApp.uml#_DXLlwA07Ee-QGv5MCMKPrQ"/>
+      <stereotypes xmi:id="_EqQ-RA07Ee-QGv5MCMKPrQ" name="Generics">
+        <modelElement href="northPoleApp.uml#_DXOpEA07Ee-QGv5MCMKPrQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EqQ-RQ07Ee-QGv5MCMKPrQ" name="LegacyStyledElement">
+        <modelElement href="northPoleApp.uml#_DXPQIA07Ee-QGv5MCMKPrQ"/>
+      </stereotypes>
+      <visibility xmi:id="_EqQ-Rg07Ee-QGv5MCMKPrQ" label="-"/>
+      <cardinality xmi:id="_EqQ-Rw07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <type xmi:id="_EqQ-SA07Ee-QGv5MCMKPrQ" name="ArrayList">
+        <modelElement href="northPoleApp.uml#_DVp7wA07Ee-QGv5MCMKPrQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EqQ-SQ07Ee-QGv5MCMKPrQ" name="good">
+      <modelElement href="northPoleApp.uml#_DXP3MA07Ee-QGv5MCMKPrQ"/>
+      <stereotypes xmi:id="_EqQ-Sg07Ee-QGv5MCMKPrQ" name="Generics">
+        <modelElement href="northPoleApp.uml#_DXRsYA07Ee-QGv5MCMKPrQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EqQ-Sw07Ee-QGv5MCMKPrQ" name="LegacyStyledElement">
+        <modelElement href="northPoleApp.uml#_DXSTcA07Ee-QGv5MCMKPrQ"/>
+      </stereotypes>
+      <visibility xmi:id="_EqQ-TA07Ee-QGv5MCMKPrQ" label="-"/>
+      <cardinality xmi:id="_EqQ-TQ07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <type xmi:id="_EqQ-Tg07Ee-QGv5MCMKPrQ" name="ArrayList">
+        <modelElement href="northPoleApp.uml#_DVp7wA07Ee-QGv5MCMKPrQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_EqQ-Tw07Ee-QGv5MCMKPrQ" name="NorthPoleController">
+      <modelElement href="northPoleApp.uml#_DRnwUA07Ee-QGv5MCMKPrQ"/>
+      <keywords xmi:id="_EqQ-UA07Ee-QGv5MCMKPrQ" keyword="create"/>
+      <visibility xmi:id="_EqRlUA07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_EqRlUQ07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EqRlUg07Ee-QGv5MCMKPrQ">
+        <modelElement href="northPoleApp.uml#_DRsBwA07Ee-QGv5MCMKPrQ"/>
+        <type xmi:id="_EqRlUw07Ee-QGv5MCMKPrQ" name="NorthPoleController">
+          <modelElement href="northPoleApp.uml#_DRZt4A07Ee-QGv5MCMKPrQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_95VLEA08Ee-QGv5MCMKPrQ" comments="_qvloIA0-Ee-QGv5MCMKPrQ" targetConnectionVisual="_qvm2QA0-Ee-QGv5MCMKPrQ" name="addChild">
+      <modelElement href="northPoleApp.uml#_9z7tsA08Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_95VLEQ08Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_95VLEg08Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_95VLEw08Ee-QGv5MCMKPrQ">
+        <modelElement href="northPoleApp.uml#_9z-xAA08Ee-QGv5MCMKPrQ"/>
+        <type xmi:id="_95VLFA08Ee-QGv5MCMKPrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_95VLFQ08Ee-QGv5MCMKPrQ" name="name">
+        <modelElement href="northPoleApp.uml#_9z9i4A08Ee-QGv5MCMKPrQ"/>
+        <cardinality xmi:id="_95VLFg08Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_95VLFw08Ee-QGv5MCMKPrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_95VLGA08Ee-QGv5MCMKPrQ" name="lName">
+        <modelElement href="northPoleApp.uml#_9z-J8A08Ee-QGv5MCMKPrQ"/>
+        <cardinality xmi:id="_95VLGQ08Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_95VLGg08Ee-QGv5MCMKPrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_95VLGw08Ee-QGv5MCMKPrQ" name="wish">
+        <modelElement href="northPoleApp.uml#_9z-J8Q08Ee-QGv5MCMKPrQ"/>
+        <cardinality xmi:id="_95VLHA08Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_95VLHQ08Ee-QGv5MCMKPrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_95VLHg08Ee-QGv5MCMKPrQ" name="address">
+        <modelElement href="northPoleApp.uml#_9z-J8g08Ee-QGv5MCMKPrQ"/>
+        <cardinality xmi:id="_95VLHw08Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_95VLIA08Ee-QGv5MCMKPrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_95VLIQ08Ee-QGv5MCMKPrQ" name="country">
+        <modelElement href="northPoleApp.uml#_9z-J8w08Ee-QGv5MCMKPrQ"/>
+        <cardinality xmi:id="_95VLIg08Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_95VLIw08Ee-QGv5MCMKPrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_95VLJA08Ee-QGv5MCMKPrQ" name="city">
+        <modelElement href="northPoleApp.uml#_9z-J9A08Ee-QGv5MCMKPrQ"/>
+        <cardinality xmi:id="_95VLJQ08Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_95VLJg08Ee-QGv5MCMKPrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_95VLJw08Ee-QGv5MCMKPrQ" name="lista">
+        <modelElement href="northPoleApp.uml#_9z-J9Q08Ee-QGv5MCMKPrQ"/>
+        <cardinality xmi:id="_95VLKA08Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_95VLKQ08Ee-QGv5MCMKPrQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Er5V8A07Ee-QGv5MCMKPrQ" comments="_7qTc0A0-Ee-QGv5MCMKPrQ" targetConnectionVisual="_7qUq8A0-Ee-QGv5MCMKPrQ" name="NorthPoleApp" associationsOut="_ErFdoA07Ee-QGv5MCMKPrQ _Er25sA07Ee-QGv5MCMKPrQ">
+    <modelElement href="northPoleApp.uml#_DSTs0A07Ee-QGv5MCMKPrQ"/>
+    <visualProperties xmi:id="_Er5V8Q07Ee-QGv5MCMKPrQ" position="708.0,700.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Er5V8g07Ee-QGv5MCMKPrQ" label="+"/>
+    <attributes xmi:id="_Er5V8w07Ee-QGv5MCMKPrQ" name="sc">
+      <modelElement href="northPoleApp.uml#_DXS6gA07Ee-QGv5MCMKPrQ"/>
+      <stereotypes xmi:id="_Er5V9A07Ee-QGv5MCMKPrQ" name="LegacyStyledElement">
+        <modelElement href="northPoleApp.uml#_DXThkA07Ee-QGv5MCMKPrQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Er5V9Q07Ee-QGv5MCMKPrQ" label="-"/>
+      <cardinality xmi:id="_Er5V9g07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Er5V9w07Ee-QGv5MCMKPrQ" name="Scanner">
+        <modelElement href="northPoleApp.uml#_DVzswA07Ee-QGv5MCMKPrQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Er5V-A07Ee-QGv5MCMKPrQ" name="controller">
+      <modelElement href="northPoleApp.uml#_DXUIoA07Ee-QGv5MCMKPrQ"/>
+      <stereotypes xmi:id="_Er5V-Q07Ee-QGv5MCMKPrQ" name="LegacyStyledElement">
+        <modelElement href="northPoleApp.uml#_DXUvsA07Ee-QGv5MCMKPrQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Er5V-g07Ee-QGv5MCMKPrQ" label="-"/>
+      <cardinality xmi:id="_Er5V-w07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Er5V_A07Ee-QGv5MCMKPrQ" name="NorthPoleController">
+        <modelElement href="northPoleApp.uml#_DRZt4A07Ee-QGv5MCMKPrQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Er59AA07Ee-QGv5MCMKPrQ" comments="_7qqpMA0-Ee-QGv5MCMKPrQ" targetConnectionVisual="_7qrQQA0-Ee-QGv5MCMKPrQ" name="NorthPoleApp">
+      <modelElement href="northPoleApp.uml#_DSZMYA07Ee-QGv5MCMKPrQ"/>
+      <keywords xmi:id="_Er59AQ07Ee-QGv5MCMKPrQ" keyword="create"/>
+      <visibility xmi:id="_Er59Ag07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_Er59Aw07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Er59BA07Ee-QGv5MCMKPrQ">
+        <modelElement href="northPoleApp.uml#_DSaagA07Ee-QGv5MCMKPrQ"/>
+        <type xmi:id="_Er59BQ07Ee-QGv5MCMKPrQ" name="NorthPoleApp">
+          <modelElement href="northPoleApp.uml#_DSTs0A07Ee-QGv5MCMKPrQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Er59Bg07Ee-QGv5MCMKPrQ" comments="_7qvhsA0-Ee-QGv5MCMKPrQ" targetConnectionVisual="_7qvhsQ0-Ee-QGv5MCMKPrQ" name="main" staticOperation="true">
+      <modelElement href="northPoleApp.uml#_DSfTAA07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_Er59Bw07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_Er59CA07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Er59CQ07Ee-QGv5MCMKPrQ" name="args">
+        <modelElement href="northPoleApp.uml#_DSfTAQ07Ee-QGv5MCMKPrQ"/>
+        <cardinality xmi:id="_Er59Cg07Ee-QGv5MCMKPrQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_Er59Cw07Ee-QGv5MCMKPrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Er59DA07Ee-QGv5MCMKPrQ" comments="_7qzMEA0-Ee-QGv5MCMKPrQ" targetConnectionVisual="_7qzMEQ0-Ee-QGv5MCMKPrQ" name="showMenu">
+      <modelElement href="northPoleApp.uml#_DSn14A07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_Er59DQ07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_Er59Dg07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Er59Dw07Ee-QGv5MCMKPrQ">
+        <modelElement href="northPoleApp.uml#_DSoc8A07Ee-QGv5MCMKPrQ"/>
+        <type xmi:id="_Er59EA07Ee-QGv5MCMKPrQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Er59EQ07Ee-QGv5MCMKPrQ" comments="_7q3dgA0-Ee-QGv5MCMKPrQ" targetConnectionVisual="_7q3dgQ0-Ee-QGv5MCMKPrQ" name="executeOperation">
+      <modelElement href="northPoleApp.uml#_DSpEAA07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_Er59Eg07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_Er59Ew07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Er59FA07Ee-QGv5MCMKPrQ" name="operation">
+        <modelElement href="northPoleApp.uml#_DSpEAQ07Ee-QGv5MCMKPrQ"/>
+        <cardinality xmi:id="_Er59FQ07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_Er59Fg07Ee-QGv5MCMKPrQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Er59Fw07Ee-QGv5MCMKPrQ" name="rf1AddChild">
+      <modelElement href="northPoleApp.uml#_DSqSIA07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_Er59GA07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_Er59GQ07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Er59Gg07Ee-QGv5MCMKPrQ" name="rf2ChangeChild">
+      <modelElement href="northPoleApp.uml#_DSq5MA07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_Er59Gw07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_Er59HA07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Er59HQ07Ee-QGv5MCMKPrQ" name="rf3ShowList">
+      <modelElement href="northPoleApp.uml#_DSsHUA07Ee-QGv5MCMKPrQ"/>
+      <visibility xmi:id="_Er59Hg07Ee-QGv5MCMKPrQ" label="+"/>
+      <cardinality xmi:id="_Er59Hw07Ee-QGv5MCMKPrQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qvloIA0-Ee-QGv5MCMKPrQ" sourceConnectionVisual="_qvm2QA0-Ee-QGv5MCMKPrQ" text="&#xA;&#x9; * @param name&#xA;&#x9; * @param lName&#xA;&#x9; * @param wish&#xA;&#x9; * @param address&#xA;&#x9; * @param country&#xA;&#x9; * @param city" item="_95VLEA08Ee-QGv5MCMKPrQ">
+    <modelElement href="northPoleApp.uml#_quxv0A0-Ee-QGv5MCMKPrQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_7qTc0A0-Ee-QGv5MCMKPrQ" sourceConnectionVisual="_7qUq8A0-Ee-QGv5MCMKPrQ" text="Main Class for the Santa's list problem&#xA;@author avillota&#xA;@version 1.0&#xA;@since 2024-05-06" item="_Er5V8A07Ee-QGv5MCMKPrQ">
+    <modelElement href="northPoleApp.uml#_7pPF0A0-Ee-QGv5MCMKPrQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_7qqpMA0-Ee-QGv5MCMKPrQ" sourceConnectionVisual="_7qrQQA0-Ee-QGv5MCMKPrQ" text="Constructor Method, initializes the objects (scanner and controller)" item="_Er59AA07Ee-QGv5MCMKPrQ">
+    <modelElement href="northPoleApp.uml#_7pRiEA0-Ee-QGv5MCMKPrQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_7qvhsA0-Ee-QGv5MCMKPrQ" sourceConnectionVisual="_7qvhsQ0-Ee-QGv5MCMKPrQ" text="Main method starts the application's execution &#xA;&#x9; * @param args" item="_Er59Bg07Ee-QGv5MCMKPrQ">
+    <modelElement href="northPoleApp.uml#_7pSJIA0-Ee-QGv5MCMKPrQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_7qzMEA0-Ee-QGv5MCMKPrQ" sourceConnectionVisual="_7qzMEQ0-Ee-QGv5MCMKPrQ" text="&#xA;&#x9; * @return" item="_Er59DA07Ee-QGv5MCMKPrQ">
+    <modelElement href="northPoleApp.uml#_7pSwMA0-Ee-QGv5MCMKPrQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_7q3dgA0-Ee-QGv5MCMKPrQ" sourceConnectionVisual="_7q3dgQ0-Ee-QGv5MCMKPrQ" text="&#xA;&#x9; * @param operation" item="_Er59EQ07Ee-QGv5MCMKPrQ">
+    <modelElement href="northPoleApp.uml#_7pSwMQ0-Ee-QGv5MCMKPrQ"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

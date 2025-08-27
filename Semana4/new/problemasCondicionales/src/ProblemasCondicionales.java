@@ -10,6 +10,8 @@ public class ProblemasCondicionales {
         System.out.print("Ingrese su edad: ");
         int edad = scanner.nextInt();
         esElegibleParaVotar(edad); //llamado void
+
+        /*
         
         // Problema 2: Número mayor
         System.out.println("\nProblema 2: Número mayor");
@@ -39,18 +41,26 @@ public class ProblemasCondicionales {
         System.out.print("Ingrese el segundo número: ");
         double num4 = scanner.nextDouble();
         System.out.print("Ingrese la operación (+, -, *, /): ");
-        char operacion = scanner.next();
-        System.out.println("El resultado es: " + calcular(num3, num4, operacion));
+        String operacion = scanner.next();
+        System/.out.println("El resultado es: " + calcular(num3, num4, operacion));
         
         // Problema 5: 
+        */
         scanner.close();
     }
 
     // Método para el problema 1: Edad y voto
+    /**
+     * tipo de retorno: void
+     * nombre del método: esElegibleParaVotar
+     * Parametros:
+     * - int edad, la edad de la persona
+     * */
     public static void esElegibleParaVotar(int edad) {
+        
     }
 
-    
+    /*
     // Método para el problema 2: Número mayor
     public static int obtenerNumeroMayor(int num1, int num2) {
         
@@ -69,7 +79,7 @@ public class ProblemasCondicionales {
     public static double calcular(double num1, double num2, String operacion) {
  
     }
-
+*/
     
 
 
